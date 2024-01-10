@@ -1,0 +1,1034 @@
+(* erzeugt mit EasyWk - DAS Schwimmwettkampfprogramm *)
+(* Version 5.23 BETA vom 17.02.2023                  *)
+(* Registriert für: Eberswalder Schwimmverein *)
+(* www.easywk.de / info@easywk.de *)
+(* erzeugt am 19.11.2023 um 12:23 Uhr                *)
+FORMAT: Wettkampfergebnisliste;7;
+ERZEUGER: EasyWk;5.23 BETA;info@easywk.de;
+VERANSTALTUNG: Eberswalder Forstpokal 2023;Eberswalde;25;AUTOMATISCH;
+VERANSTALTER: Eberswalder Schwimmverein e.V.;
+AUSRICHTER: Eberswalder Schwimmverein e.V.;Tenbusch, Tim;;;;;;;timtenbusch@gmail.com;
+ABSCHNITT: 1;18.11.2023;10:00;;
+KAMPFGERICHT: 1;ZBV;Saremba, Luise;Eberswalder SV;
+KAMPFGERICHT: 1;ZBV;Patzwald, Kay;Eberswalder SV;
+KAMPFGERICHT: 1;SCH;Köhler, Karen;Einheit Rathenow;
+KAMPFGERICHT: 1;SCH;Köhler, Karen;Einheit Rathenow;
+KAMPFGERICHT: 1;STA;Gregorovius, Arlett;Eberswalder SV;
+KAMPFGERICHT: 1;STA;Gregorovius, Arlett;Eberswalder SV;
+KAMPFGERICHT: 1;AUS;Krüger, Thomas;Eberswalder SV;
+KAMPFGERICHT: 1;PKF;Tenbusch, Tim;Eberswalder SV;
+KAMPFGERICHT: 1;SR;Jahn, Susanne;Eberswalder SV;
+KAMPFGERICHT: 1;SR;Zink, Kai;Eberswalder SV;
+KAMPFGERICHT: 1;ZRO;Bergemann, Michaela;;
+KAMPFGERICHT: 1;ZR;Bergemann, Michaela;Eberswalder SV;
+KAMPFGERICHT: 1;ZR;Schulz, Janette;Eberswalder SV;
+KAMPFGERICHT: 1;ZR;Mietke, Matthias;SG Aufbau Eisenhüttenstadt;
+KAMPFGERICHT: 1;WRO;Clerc, Danica;;
+KAMPFGERICHT: 1;WR;Clerc, Danica;Eberswalder SV;
+KAMPFGERICHT: 1;WR;Fritze, Adrian;Eberswalder SV;
+KAMPFGERICHT: 1;WR;Schmidt-Fatke, Sandro;SSV PCK 90 Schwedt;
+KAMPFGERICHT: 1;WR;Finken, Heiner;Eberswalder SV;
+KAMPFGERICHT: 1;WR;Jung, Sina;Eberswalder SV;
+KAMPFGERICHT: 1;ZNO;Graudenz, Jörg;;
+KAMPFGERICHT: 1;ZN;Graudenz, Jörg;SSV PCK 90 Schwedt;
+KAMPFGERICHT: 1;ZN;Klatt, Annkatrin;Schwimmsportverein Wildau e.V.;
+KAMPFGERICHT: 1;ZN;Haupt, Ronny;Schwimmsportverein Wildau e.V.;
+KAMPFGERICHT: 1;ZN;Rösler, Heike;Eberswalder SV;
+KAMPFGERICHT: 1;ZN;Fritze, Cindy;Eberswalder SV;
+KAMPFGERICHT: 1;ZBV;Patzwald, Kay;Eberswalder SV;
+KAMPFGERICHT: 1;ZBV;Zink, Antje;Eberswalder SV;
+KAMPFGERICHT: 1;ZBV;Lüttkopf, Dagmar;Eberswalder SV;
+KAMPFGERICHT: 1;SP;Borchert, Roswitha;Eberswalder SV;
+WETTKAMPF: 1;E;1;1;50;F;BE;M;SW;;; (* 50m K-Beine männlich *)
+WETTKAMPF: 2;E;1;1;50;F;BE;W;SW;;; (* 50m K-Beine weiblich *)
+WETTKAMPF: 3;E;1;1;50;R;GL;M;SW;;; (* 50m Rücken männlich *)
+WETTKAMPF: 4;E;1;1;50;R;GL;W;SW;;; (* 50m Rücken weiblich *)
+WETTKAMPF: 5;E;1;1;100;R;GL;M;SW;;; (* 100m Rücken männlich *)
+WETTKAMPF: 6;E;1;1;100;R;GL;W;SW;;; (* 100m Rücken weiblich *)
+WETTKAMPF: 7;E;1;1;50;B;GL;M;SW;;; (* 50m Brust männlich *)
+WETTKAMPF: 8;E;1;1;50;B;GL;W;SW;;; (* 50m Brust weiblich *)
+WETTKAMPF: 9;E;1;1;100;B;GL;M;SW;;; (* 100m Brust männlich *)
+WETTKAMPF: 10;E;1;1;100;B;GL;W;SW;;; (* 100m Brust weiblich *)
+WETTKAMPF: 11;E;1;1;25;S;BE;X;SW;;; (* 25m D-Beine mixed *)
+WETTKAMPF: 12;E;1;1;50;S;BE;X;SW;;; (* 50m D-Beine mixed *)
+WETTKAMPF: 13;E;1;1;50;S;GL;X;SW;;; (* 50m Schmetterling mixed WK13+14 *)
+WETTKAMPF: 15;E;1;1;100;S;GL;M;SW;;; (* 100m Schmetterling männlich *)
+WETTKAMPF: 16;E;1;1;100;S;GL;W;SW;;; (* 100m Schmetterling weiblich *)
+WETTKAMPF: 17;E;1;1;50;F;GL;M;SW;;; (* 50m Freistil männlich *)
+WETTKAMPF: 18;E;1;1;50;F;GL;W;SW;;; (* 50m Freistil weiblich *)
+WETTKAMPF: 19;E;1;1;100;F;GL;M;SW;;; (* 100m Freistil männlich *)
+WETTKAMPF: 20;E;1;1;100;F;GL;W;SW;;; (* 100m Freistil weiblich *)
+WETTKAMPF: 21;E;1;1;100;L;GL;M;SW;;; (* 100m Lagen männlich *)
+WETTKAMPF: 22;E;1;1;100;L;GL;W;SW;;; (* 100m Lagen weiblich *)
+WETTKAMPF: 23;E;1;8;50;L;GL;X;SW;;; (* 8x50m Lagen mixed *)
+WERTUNG: 1;E;1001;JG;2015;2015;M;Jahrgang 2015;
+WERTUNG: 1;E;1002;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 1;E;1003;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 1;E;1004;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 2;E;2001;JG;2015;2015;W;Jahrgang 2015;
+WERTUNG: 2;E;2002;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 2;E;2003;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 2;E;2004;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 3;E;3001;JG;2015;2015;M;Jahrgang 2015;
+WERTUNG: 3;E;3002;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 4;E;4001;JG;2015;2015;W;Jahrgang 2015;
+WERTUNG: 4;E;4002;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 5;E;5001;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 5;E;5002;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 5;E;5003;JG;2011;2011;M;Jahrgang 2011;
+WERTUNG: 5;E;5004;JG;2010;2010;M;Jahrgang 2010;
+WERTUNG: 5;E;5005;JG;2009;2009;M;Jahrgang 2009;
+WERTUNG: 5;E;5006;JG;2008;2008;M;Jahrgang 2008;
+WERTUNG: 5;E;5007;JG;2007;2007;M;Jahrgang 2007;
+WERTUNG: 5;E;5008;JG;2006;2006;M;Jahrgang 2006;
+WERTUNG: 5;E;5009;JG;0;2005;M;Jahrgang 2005 und älter;
+WERTUNG: 6;E;6001;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 6;E;6002;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 6;E;6003;JG;2011;2011;W;Jahrgang 2011;
+WERTUNG: 6;E;6004;JG;2010;2010;W;Jahrgang 2010;
+WERTUNG: 6;E;6005;JG;2009;2009;W;Jahrgang 2009;
+WERTUNG: 6;E;6006;JG;2008;2008;W;Jahrgang 2008;
+WERTUNG: 6;E;6007;JG;2007;2007;W;Jahrgang 2007;
+WERTUNG: 6;E;6008;JG;2006;2006;W;Jahrgang 2006;
+WERTUNG: 6;E;6009;JG;0;2005;W;Jahrgang 2005 und älter;
+WERTUNG: 7;E;7001;JG;2015;2015;M;Jahrgang 2015;
+WERTUNG: 7;E;7002;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 8;E;8001;JG;2015;2015;W;Jahrgang 2015;
+WERTUNG: 8;E;8002;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 9;E;9001;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 9;E;9002;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 9;E;9003;JG;2011;2011;M;Jahrgang 2011;
+WERTUNG: 9;E;9004;JG;2010;2010;M;Jahrgang 2010;
+WERTUNG: 9;E;9005;JG;2009;2009;M;Jahrgang 2009;
+WERTUNG: 9;E;9006;JG;2008;2008;M;Jahrgang 2008;
+WERTUNG: 9;E;9007;JG;2007;2007;M;Jahrgang 2007;
+WERTUNG: 9;E;9008;JG;2006;2006;M;Jahrgang 2006;
+WERTUNG: 9;E;9009;JG;0;2005;M;Jahrgang 2005 und älter;
+WERTUNG: 10;E;10001;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 10;E;10002;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 10;E;10003;JG;2011;2011;W;Jahrgang 2011;
+WERTUNG: 10;E;10004;JG;2010;2010;W;Jahrgang 2010;
+WERTUNG: 10;E;10005;JG;2009;2009;W;Jahrgang 2009;
+WERTUNG: 10;E;10006;JG;2008;2008;W;Jahrgang 2008;
+WERTUNG: 10;E;10007;JG;2007;2007;W;Jahrgang 2007;
+WERTUNG: 10;E;10008;JG;2006;2006;W;Jahrgang 2006;
+WERTUNG: 10;E;10009;JG;0;2005;W;Jahrgang 2005 und älter;
+WERTUNG: 11;E;11001;JG;2015;2015;W;Jahrgang 2015 weiblich;
+WERTUNG: 11;E;11002;JG;2014;2014;W;Jahrgang 2014 weiblich;
+WERTUNG: 11;E;11003;JG;2015;2015;M;Jahrgang 2015 männlich;
+WERTUNG: 11;E;11004;JG;2014;2014;M;Jahrgang 2014 männlich;
+WERTUNG: 12;E;12001;JG;2015;2015;W;Jahrgang 2015 weiblich;
+WERTUNG: 12;E;12002;JG;2014;2014;W;Jahrgang 2014 weiblich;
+WERTUNG: 12;E;12003;JG;2015;2015;M;Jahrgang 2015 männlich;
+WERTUNG: 12;E;12004;JG;2014;2014;M;Jahrgang 2014 männlich;
+WERTUNG: 13;E;13001;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 13;E;13002;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 13;E;13003;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 13;E;13004;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 15;E;15001;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 15;E;15002;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 15;E;15003;JG;2011;2011;M;Jahrgang 2011;
+WERTUNG: 15;E;15004;JG;2010;2010;M;Jahrgang 2010;
+WERTUNG: 15;E;15005;JG;2009;2009;M;Jahrgang 2009;
+WERTUNG: 15;E;15006;JG;2008;2008;M;Jahrgang 2008;
+WERTUNG: 15;E;15007;JG;2007;2007;M;Jahrgang 2007;
+WERTUNG: 15;E;15008;JG;2006;2006;M;Jahrgang 2006;
+WERTUNG: 15;E;15009;JG;0;2005;M;Jahrgang 2005 und älter;
+WERTUNG: 16;E;16001;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 16;E;16002;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 16;E;16003;JG;2011;2011;W;Jahrgang 2011;
+WERTUNG: 16;E;16004;JG;2010;2010;W;Jahrgang 2010;
+WERTUNG: 16;E;16005;JG;2009;2009;W;Jahrgang 2009;
+WERTUNG: 16;E;16006;JG;2008;2008;W;Jahrgang 2008;
+WERTUNG: 16;E;16007;JG;2007;2007;W;Jahrgang 2007;
+WERTUNG: 16;E;16008;JG;2006;2006;W;Jahrgang 2006;
+WERTUNG: 16;E;16009;JG;0;2005;W;Jahrgang 2005 und älter;
+WERTUNG: 17;E;17001;JG;2015;2015;M;Jahrgang 2015;
+WERTUNG: 17;E;17002;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 18;E;18001;JG;2015;2015;W;Jahrgang 2015;
+WERTUNG: 18;E;18002;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 19;E;19001;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 19;E;19002;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 19;E;19003;JG;2011;2011;M;Jahrgang 2011;
+WERTUNG: 19;E;19004;JG;2010;2010;M;Jahrgang 2010;
+WERTUNG: 19;E;19005;JG;2009;2009;M;Jahrgang 2009;
+WERTUNG: 19;E;19006;JG;2008;2008;M;Jahrgang 2008;
+WERTUNG: 19;E;19007;JG;2007;2007;M;Jahrgang 2007;
+WERTUNG: 19;E;19008;JG;2006;2006;M;Jahrgang 2006;
+WERTUNG: 19;E;19009;JG;0;2005;M;Jahrgang 2005 und älter;
+WERTUNG: 20;E;20001;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 20;E;20002;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 20;E;20003;JG;2011;2011;W;Jahrgang 2011;
+WERTUNG: 20;E;20004;JG;2010;2010;W;Jahrgang 2010;
+WERTUNG: 20;E;20005;JG;2009;2009;W;Jahrgang 2009;
+WERTUNG: 20;E;20006;JG;2008;2008;W;Jahrgang 2008;
+WERTUNG: 20;E;20007;JG;2007;2007;W;Jahrgang 2007;
+WERTUNG: 20;E;20008;JG;2006;2006;W;Jahrgang 2006;
+WERTUNG: 20;E;20009;JG;0;2005;W;Jahrgang 2005 und älter;
+WERTUNG: 21;E;21001;JG;2014;2014;M;Jahrgang 2014;
+WERTUNG: 21;E;21002;JG;2013;2013;M;Jahrgang 2013;
+WERTUNG: 21;E;21003;JG;2012;2012;M;Jahrgang 2012;
+WERTUNG: 21;E;21004;JG;2011;2011;M;Jahrgang 2011;
+WERTUNG: 21;E;21005;JG;2010;2010;M;Jahrgang 2010;
+WERTUNG: 21;E;21006;JG;2009;2009;M;Jahrgang 2009;
+WERTUNG: 21;E;21007;JG;2008;2008;M;Jahrgang 2008;
+WERTUNG: 21;E;21008;JG;2007;2007;M;Jahrgang 2007;
+WERTUNG: 21;E;21009;JG;2006;2006;M;Jahrgang 2006;
+WERTUNG: 21;E;21010;JG;0;2005;M;Jahrgang 2005 und älter;
+WERTUNG: 22;E;22001;JG;2014;2014;W;Jahrgang 2014;
+WERTUNG: 22;E;22002;JG;2013;2013;W;Jahrgang 2013;
+WERTUNG: 22;E;22003;JG;2012;2012;W;Jahrgang 2012;
+WERTUNG: 22;E;22004;JG;2011;2011;W;Jahrgang 2011;
+WERTUNG: 22;E;22005;JG;2010;2010;W;Jahrgang 2010;
+WERTUNG: 22;E;22006;JG;2009;2009;W;Jahrgang 2009;
+WERTUNG: 22;E;22007;JG;2008;2008;W;Jahrgang 2008;
+WERTUNG: 22;E;22008;JG;2007;2007;W;Jahrgang 2007;
+WERTUNG: 22;E;22009;JG;2006;2006;W;Jahrgang 2006;
+WERTUNG: 22;E;22010;JG;0;2005;W;Jahrgang 2005 und älter;
+WERTUNG: 23;E;23001;JG;0;0;X;Offene Wertung;
+VEREIN: Eberswalder SV;4724;4;GER;
+VEREIN: Pro Sport Berlin 24;5626;3;GER;
+VEREIN: Schwimmsportverein Wildau e.V.;6665;4;GER;
+VEREIN: SG Aufbau Eisenhüttenstadt;6636;4;GER;
+VEREIN: SG Neukölln e.V. Berlin;5621;3;GER;
+VEREIN: SSV PCK 90 Schwedt;4738;4;GER;
+PNERGEBNIS: 1;E;1004;1;;Clerc, Levi;428776;108;M;2012;;Eberswalder SV;4724;00:00:47,53;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 1;E;1004;2;;Winkelmann, Johannes Erich;428773;153;M;2012;;Eberswalder SV;4724;00:00:47,97;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 1;E;1004;3;;Kluthe, Theo;452365;122;M;2012;;Eberswalder SV;4724;00:00:50,97;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 1;E;1004;4;;Lemke, Lukas;436575;75;M;2012;;SSV PCK 90 Schwedt;4738;00:00:54,75;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 1;E;1004;5;;Thiele, Jonas;436782;48;M;2012;;SG Aufbau Eisenhüttenstadt;6636;00:00:59,06;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 1;E;1003;1;;Lück, Janis;446940;79;M;2013;;SSV PCK 90 Schwedt;4738;00:00:49,81;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 1;E;1003;2;;Schulze, Felix;460510;33;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:01,13;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 1;E;1002;1;;Kaddatz, Ben Moritz;479993;67;M;2014;;SSV PCK 90 Schwedt;4738;00:00:59,52;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1002;2;;Knobbe, Till;454208;69;M;2014;;SSV PCK 90 Schwedt;4738;00:01:02,69;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1002;3;;Arsand, Hendrik;455462;105;M;2014;;Eberswalder SV;4724;00:01:08,43;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1002;4;;Lange, Marlin;454604;39;M;2014;;SG Aufbau Eisenhüttenstadt;6636;00:01:12,56;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1002;5;;Stiller, Leopold;447978;146;M;2014;;Eberswalder SV;4724;00:01:18,60;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1002;0;NA;Friedrich, Levi Hans;462077;112;M;2014;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 1;E;1001;1;;Zink, Oskar Kai;447646;156;M;2015;;Eberswalder SV;4724;00:00:57,20;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 1;E;1001;2;;Sanoyan, Edgar;466400;45;M;2015;;SG Aufbau Eisenhüttenstadt;6636;00:01:01,31;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 1;E;1001;3;;Fiedler, Lias;000000;110;M;2015;;Eberswalder SV;4724;00:01:04,85;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 1;E;1001;4;;Killermann, Constantin;450175;120;M;2015;;Eberswalder SV;4724;00:01:07,17;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 1;E;1001;5;;Yaman, Arda;456949;154;M;2015;;Eberswalder SV;4724;00:01:10,87;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 1;E;1001;0;DS;Schulz, Malte;479986;89;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Zielanschlag erfolgte nicht mit beiden Händen an der Wand.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 2;E;2004;1;;Ludwig, Pia May;423572;80;W;2012;;SSV PCK 90 Schwedt;4738;00:00:43,66;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2004;2;;Hauschild, Milena;436566;66;W;2012;;SSV PCK 90 Schwedt;4738;00:00:47,89;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2004;3;;Schulze, Frieda Helene;428777;140;W;2012;;Eberswalder SV;4724;00:00:48,78;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2004;4;;Gayk, Hedy-Lotta;449644;61;W;2012;;SSV PCK 90 Schwedt;4738;00:00:56,68;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2004;5;;Lukosiute, Fausta;437943;42;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:01:01,26;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2004;0;NA;Engelien, Marie;436781;37;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:00:00,00;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 2;E;2003;1;;Kochinke, Lotta-Estelle;436570;71;W;2013;;SSV PCK 90 Schwedt;4738;00:00:46,46;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;2;;Tinginies, Emilia;447021;92;W;2013;;SSV PCK 90 Schwedt;4738;00:01:01,93;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;3;;Reumschüssel, Zoey;000000;132;W;2013;;Eberswalder SV;4724;00:01:03,24;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;4;;Gain, Xanthe;475105;3;W;2013;;Pro Sport Berlin 24;5626;00:01:03,25;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;5;;Willim, Nela;446938;96;W;2013;;SSV PCK 90 Schwedt;4738;00:01:04,01;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;6;;Paschke, Gwenda;460704;30;W;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:04,11;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;7;;Patzwald, Linnea;447517;130;W;2013;;Eberswalder SV;4724;00:01:10,29;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;0;DS;Streciwilk, Sofia;479994;91;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;Beim Zielanschlag wurde nur mit einer Hand angeschlagen.;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2003;0;AB;Fatke, Luna Victoria;446917;58;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 2;E;2002;1;;Kaminsky, Rieke;452325;119;W;2014;;Eberswalder SV;4724;00:00:57,64;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 2;E;2002;2;;Sternkiker, Lina;463321;90;W;2014;;SSV PCK 90 Schwedt;4738;00:01:04,66;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 2;E;2002;3;;Seeliger, Grete;447377;141;W;2014;;Eberswalder SV;4724;00:01:12,69;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 2;E;2001;1;;Krüger, Ruby;464293;124;W;2015;;Eberswalder SV;4724;00:01:07,95;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 2;E;2001;0;DS;Lönne, Charlotte Luise;454938;125;W;2015;;Eberswalder SV;4724;00:00:00,00;Der Sportler startete vor dem Startsignal;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 2;E;2001;0;DS;Fleske, Emma;479987;60;W;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Bei der 25m Wende wurde der Anschlag nur mit einer Hand ausgeführt.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 2;E;2001;0;DS;Koch, Lene;478798;70;W;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Bei der 25m Wende wurde nur mit einer Hand angeschlagen.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3002;1;;Schleip, Jonathan;447139;137;M;2014;;Eberswalder SV;4724;00:00:46,15;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;2;;Kaddatz, Ben Moritz;479993;67;M;2014;;SSV PCK 90 Schwedt;4738;00:00:51,99;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;3;;Stiller, Leopold;447978;146;M;2014;;Eberswalder SV;4724;00:00:52,45;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;4;;Haupt, Moritz;460567;18;M;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:53,47;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;5;;Arsand, Hendrik;455462;105;M;2014;;Eberswalder SV;4724;00:00:56,23;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;6;;Ulrich, Karl;000000;151;M;2014;;Eberswalder SV;4724;00:01:00,66;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;7;;Jänsch, Matheo;000000;116;M;2014;;Eberswalder SV;4724;00:01:11,91;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;0;NA;Friedrich, Levi Hans;462077;112;M;2014;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;0;DS;Knobbe, Till;454208;69;M;2014;;SSV PCK 90 Schwedt;4738;00:00:00,00;Die Schwimmart wurde während des Wettkampfs verlassen. (Rücken -> Brust);;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3002;0;DS;Marciszewski, Jakub;454211;82;M;2014;;SSV PCK 90 Schwedt;4738;00:00:00,00;Bei der ersten Wende wurde die Wand nicht berührt.;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 3;E;3001;1;;Sanoyan, Edgar;466400;45;M;2015;;SG Aufbau Eisenhüttenstadt;6636;00:00:52,11;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;2;;Fiedler, Lias;000000;110;M;2015;;Eberswalder SV;4724;00:00:55,59;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;3;;Zink, Oskar Kai;447646;156;M;2015;;Eberswalder SV;4724;00:00:56,85;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;4;;Killermann, Constantin;450175;120;M;2015;;Eberswalder SV;4724;00:00:57,00;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;5;;Möschter, Lennard Veit;454945;129;M;2015;;Eberswalder SV;4724;00:00:57,47;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;6;;Yaman, Arda;456949;154;M;2015;;Eberswalder SV;4724;00:01:00,67;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;7;;Pohlan, Mats;454944;85;M;2015;;SSV PCK 90 Schwedt;4738;00:01:02,65;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;8;;Krauße, Tim;446927;74;M;2015;;SSV PCK 90 Schwedt;4738;00:01:04,79;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;9;;Schulz, Malte;479986;89;M;2015;;SSV PCK 90 Schwedt;4738;00:01:36,46;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 3;E;3001;0;NA;Grützmacher, Paul;474313;65;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4002;1;;Bruckmann, Nele;460773;107;W;2014;;Eberswalder SV;4724;00:00:42,49;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;2;;Littmann, Mira;446914;78;W;2014;;SSV PCK 90 Schwedt;4738;00:00:44,57;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;3;;Siebert, Alma;449300;142;W;2014;;Eberswalder SV;4724;00:00:51,92;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;4;;Moritz, Marlene;470439;26;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:52,24;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;5;;Buchholz, Alva;446919;55;W;2014;;SSV PCK 90 Schwedt;4738;00:00:52,66;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;6;;Schneider, Lisbeth;470438;32;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:53,07;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;7;;Sternkiker, Lina;463321;90;W;2014;;SSV PCK 90 Schwedt;4738;00:00:54,55;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4002;8;;Kaminsky, Rieke;452325;119;W;2014;;Eberswalder SV;4724;00:00:57,23;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 4;E;4001;1;;Lüttkopf, Ida;454943;127;W;2015;;Eberswalder SV;4724;00:00:48,77;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;2;;Stelse, Marcia Mariella;455477;145;W;2015;;Eberswalder SV;4724;00:00:49,25;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;3;;Fatke, Naira Junika;446925;59;W;2015;;SSV PCK 90 Schwedt;4738;00:00:51,81;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;4;;Krauße, Greta;446926;72;W;2015;;SSV PCK 90 Schwedt;4738;00:00:54,00;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;5;;Fleske, Emma;479987;60;W;2015;;SSV PCK 90 Schwedt;4738;00:00:54,33;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;6;;Graudenz, Stine;446928;62;W;2015;;SSV PCK 90 Schwedt;4738;00:00:57,02;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;7;;Lönne, Charlotte Luise;454938;125;W;2015;;Eberswalder SV;4724;00:00:59,51;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 4;E;4001;8;;Koch, Lene;478798;70;W;2015;;SSV PCK 90 Schwedt;4738;00:00:59,57;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 5;E;5007;1;;Riemelt, Milan;368034;133;M;2007;;Eberswalder SV;4724;00:01:10,25;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 133;5;E;50;00:00:33,21;
+PNERGEBNIS: 5;E;5007;2;;Bertholdt, Bela;384702;13;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:11,97;;;GER;;; (* Jahrgang 2007 *)
+PNERGEBNIS: 5;E;5007;3;;Bublak, Emil;386917;16;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:17,11;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 16;5;E;50;00:00:37,42;
+PNERGEBNIS: 5;E;5006;1;;Lüttkopf, Emil;384009;126;M;2008;;Eberswalder SV;4724;00:01:07,53;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 126;5;E;50;00:00:32,53;
+PNERGEBNIS: 5;E;5006;2;;Kleinke, Jonas;386677;68;M;2008;;SSV PCK 90 Schwedt;4738;00:01:08,94;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 68;5;E;50;00:00:33,47;
+PNERGEBNIS: 5;E;5006;3;;Trost, Alexander;379489;93;M;2008;;SSV PCK 90 Schwedt;4738;00:01:15,49;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 93;5;E;50;00:00:36,06;
+PNERGEBNIS: 5;E;5006;4;;Fritze, Adrian;424013;113;M;2008;;Eberswalder SV;4724;00:01:18,01;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 113;5;E;50;00:00:37,67;
+PNERGEBNIS: 5;E;5006;5;;Schleip, Benjamin;000000;136;M;2008;;Eberswalder SV;4724;00:01:36,44;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 136;5;E;50;00:00:45,87;
+PNERGEBNIS: 5;E;5005;1;;Jahn, Henning Peter;397536;114;M;2009;;Eberswalder SV;4724;00:01:29,05;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 114;5;E;50;00:00:42,42;
+PNERGEBNIS: 5;E;5004;1;;Matzmohr, Piet;423665;25;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:18,22;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 25;5;E;50;00:00:38,58;
+PNERGEBNIS: 5;E;5004;2;;Kühnast, Nicolas;416250;23;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:18,56;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 23;5;E;50;00:00:39,60;
+PNERGEBNIS: 5;E;5004;3;;Tosi, Davide;413394;9;M;2010;;Pro Sport Berlin 24;5626;00:01:25,12;;;;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 5;E;5004;4;;Lukosius, Laurynas;431255;41;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:26,99;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 41;5;E;50;00:00:41,47;
+PNERGEBNIS: 5;E;5003;1;;Bormann, Jan;465292;15;M;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:30,72;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 15;5;E;50;00:00:43,40;
+PNERGEBNIS: 5;E;5003;2;;Kaminsky, Malte;424019;118;M;2011;;Eberswalder SV;4724;00:01:38,38;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 118;5;E;50;00:00:46,86;
+PNERGEBNIS: 5;E;5002;1;;Winkelmann, Johannes Erich;428773;153;M;2012;;Eberswalder SV;4724;00:01:28,20;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;2;;Clerc, Levi;428776;108;M;2012;;Eberswalder SV;4724;00:01:29,85;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;3;;Kluthe, Theo;452365;122;M;2012;;Eberswalder SV;4724;00:01:37,01;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;4;;Lemke, Lukas;436575;75;M;2012;;SSV PCK 90 Schwedt;4738;00:01:40,06;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;5;;Tran, Lai Minh;440591;150;M;2012;;Eberswalder SV;4724;00:01:40,24;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;6;;Venus, Florian;470562;34;M;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:54,15;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;7;;Nickel, Nils;436563;84;M;2012;;SSV PCK 90 Schwedt;4738;00:02:02,84;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;8;;Weidemann, Ian;436576;94;M;2012;;SSV PCK 90 Schwedt;4738;00:02:18,36;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5002;0;NA;Zink, Ben;464848;35;M;2012;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 5;E;5001;1;;Lück, Janis;446940;79;M;2013;;SSV PCK 90 Schwedt;4738;00:01:29,37;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 5;E;5001;2;;Obel, Leopold;460508;28;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:44,00;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 5;E;5001;3;;Schmidt, Jossip;447549;138;M;2013;;Eberswalder SV;4724;00:01:52,38;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 5;E;5001;4;;Schulze, Felix;460510;33;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:56,92;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 33;5;E;50;00:00:55,25;
+PNERGEBNIS: 6;E;6009;1;;Bowitz, Lilien;315146;53;W;2004;;SSV PCK 90 Schwedt;4738;00:01:16,41;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 53;6;E;50;00:00:36,19;
+PNERGEBNIS: 6;E;6008;1;;Köder, Lotte Polly;430038;6;W;2006;;Pro Sport Berlin 24;5626;00:01:41,18;;;GER;;; (* Jahrgang 2006 *)
+PNZWISCHENZEIT: 6;6;E;50;00:00:50,09;
+PNERGEBNIS: 6;E;6007;1;;Jung, Sina;368033;117;W;2007;;Eberswalder SV;4724;00:01:29,53;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 117;6;E;50;00:00:43,11;
+PNERGEBNIS: 6;E;6006;1;;Tenbusch, Tarya;402761;148;W;2008;;Eberswalder SV;4724;00:01:11,49;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 148;6;E;50;00:00:34,15;
+PNERGEBNIS: 6;E;6006;2;;Saremba, Luise;347465;135;W;2008;;Eberswalder SV;4724;00:01:13,78;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 135;6;E;50;00:00:34,93;
+PNERGEBNIS: 6;E;6006;3;;Knauth, Louisa;431855;5;W;2008;;Pro Sport Berlin 24;5626;00:01:27,65;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 5;6;E;50;00:00:42,30;
+PNERGEBNIS: 6;E;6006;4;;Marciszewka, Wiktoria;480920;81;W;2008;;SSV PCK 90 Schwedt;4738;00:01:46,91;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 81;6;E;50;00:00:49,32;
+PNERGEBNIS: 6;E;6005;1;;Brykczynski, Lana;385082;54;W;2009;;SSV PCK 90 Schwedt;4738;00:01:08,84;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 54;6;E;50;00:00:32,77;
+PNERGEBNIS: 6;E;6005;2;;Pratzer, Laura;433809;131;W;2009;;Eberswalder SV;4724;00:01:29,32;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 6;E;6005;0;NA;Pankratz, Fiona;436254;29;W;2009;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 6;E;6004;1;;Schröder, Josephine;413974;139;W;2010;;Eberswalder SV;4724;00:01:34,00;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 139;6;E;50;00:00:44,03;
+PNERGEBNIS: 6;E;6003;1;;Arsand, Carolin;402767;104;W;2011;;Eberswalder SV;4724;00:01:18,80;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 104;6;E;50;00:00:37,27;
+PNERGEBNIS: 6;E;6003;2;;Stiller, Luise;402765;147;W;2011;;Eberswalder SV;4724;00:01:24,83;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 147;6;E;50;00:00:42,02;
+PNERGEBNIS: 6;E;6003;3;;Tenbusch, Tessa;428780;149;W;2011;;Eberswalder SV;4724;00:01:30,93;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 149;6;E;50;00:00:43,23;
+PNERGEBNIS: 6;E;6003;4;;Jahn, Rosalie;435296;115;W;2011;;Eberswalder SV;4724;00:01:33,91;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 6;E;6003;5;;Bendzko, Flavia;423577;106;W;2011;;Eberswalder SV;4724;00:01:36,13;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 106;6;E;50;00:00:46,18;
+PNERGEBNIS: 6;E;6003;6;;Gain, Sylvie;471486;2;W;2011;;Pro Sport Berlin 24;5626;00:01:39,32;;;;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 2;6;E;50;00:00:46,98;
+PNERGEBNIS: 6;E;6002;1;;Ludwig, Pia May;423572;80;W;2012;;SSV PCK 90 Schwedt;4738;00:01:18,53;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 80;6;E;50;00:00:37,64;
+PNERGEBNIS: 6;E;6002;2;;Schulze, Frieda Helene;428777;140;W;2012;;Eberswalder SV;4724;00:01:24,13;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 140;6;E;50;00:00:40,76;
+PNERGEBNIS: 6;E;6002;3;;Hauschild, Milena;436566;66;W;2012;;SSV PCK 90 Schwedt;4738;00:01:30,96;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 66;6;E;50;00:00:44,17;
+PNERGEBNIS: 6;E;6002;4;;Gayk, Hedy-Lotta;449644;61;W;2012;;SSV PCK 90 Schwedt;4738;00:01:48,21;;;;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 61;6;E;50;00:00:52,88;
+PNERGEBNIS: 6;E;6002;5;;Leuendorf, Charlotte;464917;24;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:49,51;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 24;6;E;50;00:00:53,19;
+PNERGEBNIS: 6;E;6002;6;;Lukosiute, Fausta;437943;42;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:01:50,24;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 6;E;6002;7;;Schneider, Helene;464844;31;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:50,80;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 31;6;E;50;00:00:53,24;
+PNERGEBNIS: 6;E;6002;0;DS;König, Hannah Lucia;464846;20;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;Der Anschlag im Ziel erfolgte in Bauchlage.;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 6;E;6001;1;;Kochinke, Lotta-Estelle;436570;71;W;2013;;SSV PCK 90 Schwedt;4738;00:01:26,18;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 71;6;E;50;00:00:43,10;
+PNERGEBNIS: 6;E;6001;2;;Klatt, Nele;412293;157;W;2013;;SG Neukölln e.V. Berlin;5621;00:01:36,04;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 157;6;E;50;00:00:45,16;
+PNERGEBNIS: 6;E;6001;3;;Tinginies, Emilia;447021;92;W;2013;;SSV PCK 90 Schwedt;4738;00:01:42,67;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 92;6;E;50;00:00:48,02;
+PNERGEBNIS: 6;E;6001;4;;Reumschüssel, Zoey;000000;132;W;2013;;Eberswalder SV;4724;00:02:01,97;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 6;E;6001;5;;Patzwald, Linnea;447517;130;W;2013;;Eberswalder SV;4724;00:02:09,20;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 6;E;6001;0;DS;Mewes, Tamina;440594;128;W;2013;;Eberswalder SV;4724;00:00:00,00;Sportlerin hat sich beim Start trotz Aufforderung nicht mit den Füßen abgestoßen (keine Wandberührung).;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 6;E;6001;0;DS;Willim, Nela;446938;96;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;Nach verlassen der Rückenlage wurde an der zweiten Wende (50m) nicht unverzüglich die Wende eingeleitet.;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 6;E;6001;0;DS;Gain, Xanthe;475105;3;W;2013;;Pro Sport Berlin 24;5626;00:00:00,00;Der Schwimmer hat sich bei der 25m Wende in Bauchlage abgestoßen.;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 6;E;6001;0;AB;Fatke, Luna Victoria;446917;58;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 7;E;7002;1;;Schleip, Jonathan;447139;137;M;2014;;Eberswalder SV;4724;00:00:52,79;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;2;;Stiller, Leopold;447978;146;M;2014;;Eberswalder SV;4724;00:00:57,36;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;3;;Lange, Marlin;454604;39;M;2014;;SG Aufbau Eisenhüttenstadt;6636;00:00:57,76;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;4;;Knobbe, Till;454208;69;M;2014;;SSV PCK 90 Schwedt;4738;00:00:58,78;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;5;;Haupt, Moritz;460567;18;M;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:58,99;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;6;;Ulrich, Karl;000000;151;M;2014;;Eberswalder SV;4724;00:01:05,15;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;0;DS;Jänsch, Matheo;000000;116;M;2014;;Eberswalder SV;4724;00:00:00,00;Der Sportler startete vor dem Startsignal;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7002;0;DS;Marciszewski, Jakub;454211;82;M;2014;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler führte mehrere Brusttauchzüge auf der gesamten Strecke aus.;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 7;E;7001;1;;Fiedler, Lias;000000;110;M;2015;;Eberswalder SV;4724;00:00:58,47;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;2;;Zink, Oskar Kai;447646;156;M;2015;;Eberswalder SV;4724;00:01:00,67;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;3;;Krauße, Tim;446927;74;M;2015;;SSV PCK 90 Schwedt;4738;00:01:03,73;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;4;;Yaman, Arda;456949;154;M;2015;;Eberswalder SV;4724;00:01:15,12;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;0;NA;Grützmacher, Paul;474313;65;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;0;DS;Killermann, Constantin;450175;120;M;2015;;Eberswalder SV;4724;00:00:00,00;Der Zielanschlag erfolgte nicht mit beiden Händen.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;0;DS;Pohlan, Mats;454944;85;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler führte mehrere Brusttauchzüge aus.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 7;E;7001;0;DS;Schulz, Malte;479986;89;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler hat bei der 25m Wende nicht mit beiden Händen angeschlagen.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8002;1;;Wenzlaff, Leni Caroline;457064;152;W;2014;;Eberswalder SV;4724;00:00:53,61;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;2;;Moritz, Marlene;470439;26;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:56,16;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;3;;Sternkiker, Lina;463321;90;W;2014;;SSV PCK 90 Schwedt;4738;00:00:58,84;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;4;;Seeliger, Grete;447377;141;W;2014;;Eberswalder SV;4724;00:00:59,06;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;5;;Schneider, Lisbeth;470438;32;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:01:00,81;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;6;;Buchholz, Alva;446919;55;W;2014;;SSV PCK 90 Schwedt;4738;00:01:02,07;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8002;0;DS;Siebert, Alma;449300;142;W;2014;;Eberswalder SV;4724;00:00:00,00;Die Sportlerin machte 2 Tauchzüge nach dem Start.;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 8;E;8001;1;;Krauße, Greta;446926;72;W;2015;;SSV PCK 90 Schwedt;4738;00:00:57,93;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;2;;Fatke, Naira Junika;446925;59;W;2015;;SSV PCK 90 Schwedt;4738;00:00:58,07;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;3;;Krüger, Ruby;464293;124;W;2015;;Eberswalder SV;4724;00:00:59,02;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;4;;Graudenz, Stine;446928;62;W;2015;;SSV PCK 90 Schwedt;4738;00:01:04,19;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;5;;Kindler, Carla;000000;121;W;2015;;Eberswalder SV;4724;00:01:20,69;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;0;DS;Koch, Lene;478798;70;W;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Die Schwimmerin hält nicht den Schwimmzyklus ein, sondern machte 2 Armzüge und einen Beinzug im Wechsel.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 8;E;8001;0;DS;Fleske, Emma;479987;60;W;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Die Schwimmerin hält nicht den Schwimmzyklus ein, sondern machte 2 Beinschläge und einen Armzug im Wechsel.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 9;E;9009;1;;Freier, Alexander;447141;111;M;1997;25;Eberswalder SV;4724;00:01:17,86;;;GER;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 111;9;E;50;00:00:35,96;
+PNERGEBNIS: 9;E;9009;2;;Saremba, Andreas;397537;134;M;1969;50;Eberswalder SV;4724;00:01:41,16;;;GER;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 9;E;9009;0;AB;Grote, Andreas;373273;63;M;1980;40;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 9;E;9007;1;;Riemelt, Milan;368034;133;M;2007;;Eberswalder SV;4724;00:01:19,97;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 133;9;E;50;00:00:38,11;
+PNERGEBNIS: 9;E;9006;1;;Sasse, Cedric;379485;87;M;2008;;SSV PCK 90 Schwedt;4738;00:01:12,57;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 87;9;E;50;00:00:33,53;
+PNERGEBNIS: 9;E;9006;2;;Fritze, Adrian;424013;113;M;2008;;Eberswalder SV;4724;00:01:22,94;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 113;9;E;50;00:00:37,96;
+PNERGEBNIS: 9;E;9006;3;;Schleip, Benjamin;000000;136;M;2008;;Eberswalder SV;4724;00:01:31,13;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 136;9;E;50;00:00:41,43;
+PNERGEBNIS: 9;E;9006;0;NA;Ianovytskyi, Ivan;457995;19;M;2008;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 9;E;9005;1;;Engelien, Felix;397849;36;M;2009;;SG Aufbau Eisenhüttenstadt;6636;00:01:20,61;;;;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 36;9;E;50;00:00:39,10;
+PNERGEBNIS: 9;E;9005;2;;Buckow, Emil;394797;56;M;2009;;SSV PCK 90 Schwedt;4738;00:01:35,87;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 9;E;9005;3;;Jahn, Henning Peter;397536;114;M;2009;;Eberswalder SV;4724;00:01:49,73;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 114;9;E;50;00:00:51,14;
+PNERGEBNIS: 9;E;9004;1;;Natusch, Lion Maxim;410336;27;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:30,69;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 27;9;E;50;00:00:41,34;
+PNERGEBNIS: 9;E;9004;2;;Wagner, Ben;409100;49;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:42,57;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 49;9;E;50;00:00:49,00;
+PNERGEBNIS: 9;E;9003;1;;Zink, Anton Kai;402763;155;M;2011;;Eberswalder SV;4724;00:01:19,60;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 155;9;E;50;00:00:37,64;
+PNERGEBNIS: 9;E;9003;2;;Bormann, Jan;465292;15;M;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:47,77;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 15;9;E;50;00:00:49,07;
+PNERGEBNIS: 9;E;9003;3;;Kaminsky, Malte;424019;118;M;2011;;Eberswalder SV;4724;00:01:50,64;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 9;E;9002;1;;Thiele, Jonas;436782;48;M;2012;;SG Aufbau Eisenhüttenstadt;6636;00:01:47,20;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 9;E;9002;2;;Weidemann, Ian;436576;94;M;2012;;SSV PCK 90 Schwedt;4738;00:02:13,59;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 94;9;E;50;00:01:02,51;
+PNERGEBNIS: 9;E;9002;3;;Tran, Lai Minh;440591;150;M;2012;;Eberswalder SV;4724;00:02:16,61;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 150;9;E;50;00:01:01,79;
+PNERGEBNIS: 9;E;9002;4;;Nickel, Nils;436563;84;M;2012;;SSV PCK 90 Schwedt;4738;00:02:36,51;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 84;9;E;50;00:01:10,55;
+PNERGEBNIS: 9;E;9001;1;;Lück, Janis;446940;79;M;2013;;SSV PCK 90 Schwedt;4738;00:01:42,87;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 79;9;E;50;00:00:49,18;
+PNERGEBNIS: 9;E;9001;2;;Schmidt, Jossip;447549;138;M;2013;;Eberswalder SV;4724;00:02:00,31;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 138;9;E;50;00:00:55,64;
+PNERGEBNIS: 10;E;10009;1;;Schlensog, Cosima;345742;46;W;2003;20;SG Aufbau Eisenhüttenstadt;6636;00:01:21,67;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 46;10;E;50;00:00:38,74;
+PNERGEBNIS: 10;E;10009;2;;Sasse, Tabea;315166;88;W;2004;;SSV PCK 90 Schwedt;4738;00:01:24,40;;;;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 10;E;10008;1;;Köder, Lotte Polly;430038;6;W;2006;;Pro Sport Berlin 24;5626;00:01:44,13;;;GER;;; (* Jahrgang 2006 *)
+PNZWISCHENZEIT: 6;10;E;50;00:00:50,86;
+PNERGEBNIS: 10;E;10007;1;;Engelmann, Hanna;362555;57;W;2007;;SSV PCK 90 Schwedt;4738;00:01:19,17;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 57;10;E;50;00:00:37,60;
+PNERGEBNIS: 10;E;10007;2;;Grote, Maritka;362560;64;W;2007;;SSV PCK 90 Schwedt;4738;00:01:29,93;;;GER;;; (* Jahrgang 2007 *)
+PNERGEBNIS: 10;E;10007;3;;Mende, Alexis Fabienne;407047;43;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:36,83;;;;;; (* Jahrgang 2007 *)
+PNERGEBNIS: 10;E;10007;4;;Ledwig, Marie Luise;474569;40;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:42,44;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 40;10;E;50;00:00:48,52;
+PNERGEBNIS: 10;E;10006;1;;Matern, Sarah-Sophie;379495;83;W;2008;;SSV PCK 90 Schwedt;4738;00:01:29,37;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 10;E;10006;2;;Philipp, Karolin;380101;44;W;2008;;SG Aufbau Eisenhüttenstadt;6636;00:01:29,44;;;;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 44;10;E;50;00:00:42,54;
+PNERGEBNIS: 10;E;10006;3;;Jacobi, Annikki;475039;4;W;2008;;Pro Sport Berlin 24;5626;00:01:43,08;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 10;E;10006;4;;Knauth, Louisa;431855;5;W;2008;;Pro Sport Berlin 24;5626;00:01:43,84;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 5;10;E;50;00:00:47,81;
+PNERGEBNIS: 10;E;10006;5;;Marciszewka, Wiktoria;480920;81;W;2008;;SSV PCK 90 Schwedt;4738;00:02:07,91;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 81;10;E;50;00:00:56,97;
+PNERGEBNIS: 10;E;10006;0;AB;Willim, Malea;379488;95;W;2008;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 10;E;10005;1;;Brykczynski, Lana;385082;54;W;2009;;SSV PCK 90 Schwedt;4738;00:01:17,70;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 10;E;10005;2;;Pratzer, Laura;433809;131;W;2009;;Eberswalder SV;4724;00:01:35,08;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 131;10;E;50;00:00:45,64;
+PNERGEBNIS: 10;E;10005;0;NA;Pankratz, Fiona;436254;29;W;2009;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 10;E;10004;1;;Putzke, Victoria;414209;86;W;2010;;SSV PCK 90 Schwedt;4738;00:01:33,74;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 86;10;E;50;00:00:42,76;
+PNERGEBNIS: 10;E;10004;2;;Schröder, Josephine;413974;139;W;2010;;Eberswalder SV;4724;00:01:39,49;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 139;10;E;50;00:00:46,25;
+PNERGEBNIS: 10;E;10004;3;;Bläsing, Freya;465291;14;W;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:42,46;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 14;10;E;50;00:00:48,49;
+PNERGEBNIS: 10;E;10004;4;;Kschadow, Maja;433351;22;W;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:46,00;;;GER;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 10;E;10004;5;;Schulz, Katharina;412529;47;W;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:52,03;;;;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 10;E;10003;1;;Kroll, Amy-Jolie;424021;123;W;2011;;Eberswalder SV;4724;00:01:27,34;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 10;E;10003;2;;Köppen, Wilhelmina;423666;21;W;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:33,70;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 21;10;E;50;00:00:45,51;
+PNERGEBNIS: 10;E;10003;3;;von Bredow, Oda Margarete;430040;10;W;2011;;Pro Sport Berlin 24;5626;00:01:33,74;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 10;10;E;50;00:00:43,99;
+PNERGEBNIS: 10;E;10003;4;;Lienert, Marie;423581;77;W;2011;;SSV PCK 90 Schwedt;4738;00:01:35,26;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 10;E;10003;5;;Krauße, Stella-Lotte;436568;73;W;2011;;SSV PCK 90 Schwedt;4738;00:01:35,70;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 73;10;E;50;00:00:46,75;
+PNERGEBNIS: 10;E;10003;6;;Arsand, Carolin;402767;104;W;2011;;Eberswalder SV;4724;00:01:42,64;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 10;E;10003;7;;Tenbusch, Tessa;428780;149;W;2011;;Eberswalder SV;4724;00:01:42,75;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 149;10;E;50;00:00:50,22;
+PNERGEBNIS: 10;E;10003;8;;Jahn, Rosalie;435296;115;W;2011;;Eberswalder SV;4724;00:01:59,22;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 10;E;10002;1;;Schulze, Frieda Helene;428777;140;W;2012;;Eberswalder SV;4724;00:01:27,49;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 10;E;10002;2;;Dehnel, Fanny;464847;17;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:46,86;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 17;10;E;50;00:00:50,45;
+PNERGEBNIS: 10;E;10002;3;;König, Hannah Lucia;464846;20;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:53,77;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 20;10;E;50;00:00:55,72;
+PNERGEBNIS: 10;E;10002;0;NA;Engelien, Marie;436781;37;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:00:00,00;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 10;E;10001;1;;Kochinke, Lotta-Estelle;436570;71;W;2013;;SSV PCK 90 Schwedt;4738;00:01:42,56;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 71;10;E;50;00:00:49,80;
+PNERGEBNIS: 10;E;10001;2;;Mewes, Tamina;440594;128;W;2013;;Eberswalder SV;4724;00:01:50,37;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 10;E;10001;3;;Paschke, Gwenda;460704;30;W;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:53,22;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 10;E;10001;4;;Tinginies, Emilia;447021;92;W;2013;;SSV PCK 90 Schwedt;4738;00:01:53,74;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 10;E;10001;5;;Klatt, Nele;412293;157;W;2013;;SG Neukölln e.V. Berlin;5621;00:01:54,28;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 157;10;E;50;00:00:55,11;
+PNERGEBNIS: 10;E;10001;6;;Willim, Nela;446938;96;W;2013;;SSV PCK 90 Schwedt;4738;00:02:04,91;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 96;10;E;50;00:00:58,94;
+PNERGEBNIS: 10;E;10001;7;;Reumschüssel, Zoey;000000;132;W;2013;;Eberswalder SV;4724;00:02:09,39;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 132;10;E;50;00:01:00,68;
+PNERGEBNIS: 10;E;10001;8;;Streciwilk, Sofia;479994;91;W;2013;;SSV PCK 90 Schwedt;4738;00:02:10,54;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 91;10;E;50;00:01:00,26;
+PNERGEBNIS: 10;E;10001;9;;Patzwald, Linnea;447517;130;W;2013;;Eberswalder SV;4724;00:02:13,03;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 10;E;10001;0;AB;Fatke, Luna Victoria;446917;58;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 11;E;11004;1;;Haupt, Moritz;460567;18;M;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:28,17;;;GER;;; (* Jahrgang 2014 männlich *)
+PNERGEBNIS: 11;E;11004;2;;Arsand, Hendrik;455462;105;M;2014;;Eberswalder SV;4724;00:00:33,69;;;GER;;; (* Jahrgang 2014 männlich *)
+PNERGEBNIS: 11;E;11004;0;NA;Friedrich, Levi Hans;462077;112;M;2014;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2014 männlich *)
+PNERGEBNIS: 11;E;11004;0;DS;Marciszewski, Jakub;454211;82;M;2014;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler schwamm in der falschen Schwimmart (Kraulbeine).;;GER;;; (* Jahrgang 2014 männlich *)
+PNERGEBNIS: 11;E;11002;1;;Kaminsky, Rieke;452325;119;W;2014;;Eberswalder SV;4724;00:00:28,73;;;GER;;; (* Jahrgang 2014 weiblich *)
+PNERGEBNIS: 11;E;11002;2;;Moritz, Marlene;470439;26;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:31,70;;;GER;;; (* Jahrgang 2014 weiblich *)
+PNERGEBNIS: 11;E;11002;0;DS;Schneider, Lisbeth;470438;32;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;Die Schwimmerin hielt nicht das Brett die ganze Zeit an der vorderen Kante.;;GER;;; (* Jahrgang 2014 weiblich *)
+PNERGEBNIS: 11;E;11003;1;;Krauße, Tim;446927;74;M;2015;;SSV PCK 90 Schwedt;4738;00:00:28,97;;;;;; (* Jahrgang 2015 männlich *)
+PNERGEBNIS: 11;E;11003;2;;Pohlan, Mats;454944;85;M;2015;;SSV PCK 90 Schwedt;4738;00:00:49,94;;;GER;;; (* Jahrgang 2015 männlich *)
+PNERGEBNIS: 11;E;11003;0;NA;Grützmacher, Paul;474313;65;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2015 männlich *)
+PNERGEBNIS: 11;E;11001;1;;Fatke, Naira Junika;446925;59;W;2015;;SSV PCK 90 Schwedt;4738;00:00:28,25;;;;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 11;E;11001;2;;Graudenz, Stine;446928;62;W;2015;;SSV PCK 90 Schwedt;4738;00:00:29,91;;;;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 11;E;11001;3;;Lönne, Charlotte Luise;454938;125;W;2015;;Eberswalder SV;4724;00:00:35,89;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 11;E;11001;4;;Koch, Lene;478798;70;W;2015;;SSV PCK 90 Schwedt;4738;00:00:38,14;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 11;E;11001;5;;Fleske, Emma;479987;60;W;2015;;SSV PCK 90 Schwedt;4738;00:00:47,87;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 11;E;11001;0;DS;Krauße, Greta;446926;72;W;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler startete vor dem Startsignal;;;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 12;E;12003;1;;Zink, Oskar Kai;447646;156;M;2015;;Eberswalder SV;4724;00:01:05,60;;;GER;;; (* Jahrgang 2015 männlich *)
+PNERGEBNIS: 12;E;12001;1;;Stelse, Marcia Mariella;455477;145;W;2015;;Eberswalder SV;4724;00:00:57,13;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 12;E;12001;2;;Lüttkopf, Ida;454943;127;W;2015;;Eberswalder SV;4724;00:01:05,07;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 12;E;12001;3;;Krüger, Ruby;464293;124;W;2015;;Eberswalder SV;4724;00:01:07,27;;;GER;;; (* Jahrgang 2015 weiblich *)
+PNERGEBNIS: 13;E;13002;1;;Schmidt, Jossip;447549;138;M;2013;;Eberswalder SV;4724;00:01:09,01;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 13;E;13001;1;;Schleip, Jonathan;447139;137;M;2014;;Eberswalder SV;4724;00:00:56,03;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 13;E;13003;1;;Littmann, Mira;446914;78;W;2014;;SSV PCK 90 Schwedt;4738;00:00:41,75;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 15;E;15007;1;;Riemelt, Milan;368034;133;M;2007;;Eberswalder SV;4724;00:01:10,08;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 133;15;E;50;00:00:32,71;
+PNERGEBNIS: 15;E;15006;1;;Sasse, Cedric;379485;87;M;2008;;SSV PCK 90 Schwedt;4738;00:01:09,13;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 87;15;E;50;00:00:32,41;
+PNERGEBNIS: 15;E;15006;2;;Lienert, John;379486;76;M;2008;;SSV PCK 90 Schwedt;4738;00:01:13,53;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 76;15;E;50;00:00:35,03;
+PNERGEBNIS: 15;E;15006;0;NA;Ianovytskyi, Ivan;457995;19;M;2008;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 15;E;15004;1;;Kühnast, Nicolas;416250;23;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:19,18;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 23;15;E;50;00:00:36,07;
+PNERGEBNIS: 15;E;15002;1;;Clerc, Levi;428776;108;M;2012;;Eberswalder SV;4724;00:01:39,76;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 16;E;16009;1;;Sasse, Tabea;315166;88;W;2004;;SSV PCK 90 Schwedt;4738;00:01:25,86;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 88;16;E;50;00:00:36,64;
+PNERGEBNIS: 16;E;16007;1;;Noll, Theresa;475037;7;W;2007;;Pro Sport Berlin 24;5626;00:01:37,10;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 7;16;E;50;00:00:45,20;
+PNERGEBNIS: 16;E;16007;2;;Jung, Sina;368033;117;W;2007;;Eberswalder SV;4724;00:01:44,44;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 117;16;E;50;00:00:43,10;
+PNERGEBNIS: 16;E;16006;1;;Tenbusch, Tarya;402761;148;W;2008;;Eberswalder SV;4724;00:01:13,00;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 148;16;E;50;00:00:33,61;
+PNERGEBNIS: 16;E;16006;2;;Saremba, Luise;347465;135;W;2008;;Eberswalder SV;4724;00:01:17,54;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 16;E;16006;3;;Philipp, Karolin;380101;44;W;2008;;SG Aufbau Eisenhüttenstadt;6636;00:01:27,04;;;;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 44;16;E;50;00:00:37,37;
+PNERGEBNIS: 16;E;16005;1;;Brykczynski, Lana;385082;54;W;2009;;SSV PCK 90 Schwedt;4738;00:01:10,12;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 54;16;E;50;00:00:33,56;
+PNERGEBNIS: 16;E;16005;0;AB;Clerc, Noa;384007;109;W;2009;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 16;E;16004;1;;Putzke, Victoria;414209;86;W;2010;;SSV PCK 90 Schwedt;4738;00:01:22,12;;;GER;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 16;E;16003;1;;Kroll, Amy-Jolie;424021;123;W;2011;;Eberswalder SV;4724;00:01:26,15;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 123;16;E;50;00:00:38,83;
+PNERGEBNIS: 16;E;16003;2;;Stiller, Luise;402765;147;W;2011;;Eberswalder SV;4724;00:01:36,31;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 16;E;16003;3;;Bendzko, Flavia;423577;106;W;2011;;Eberswalder SV;4724;00:01:44,72;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 16;E;16002;1;;Hauschild, Milena;436566;66;W;2012;;SSV PCK 90 Schwedt;4738;00:01:38,25;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 17;E;17002;1;;Kaddatz, Ben Moritz;479993;67;M;2014;;SSV PCK 90 Schwedt;4738;00:00:48,19;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;2;;Knobbe, Till;454208;69;M;2014;;SSV PCK 90 Schwedt;4738;00:00:50,15;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;3;;Lange, Marlin;454604;39;M;2014;;SG Aufbau Eisenhüttenstadt;6636;00:00:51,20;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;4;;Haupt, Moritz;460567;18;M;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:52,13;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;5;;Marciszewski, Jakub;454211;82;M;2014;;SSV PCK 90 Schwedt;4738;00:00:56,46;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;0;NA;Friedrich, Levi Hans;462077;112;M;2014;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17002;0;DS;Arsand, Hendrik;455462;105;M;2014;;Eberswalder SV;4724;00:00:00,00;Bei der 25m Wende berührte der Sportler nicht die Wand.;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 17;E;17001;1;;Fiedler, Lias;000000;110;M;2015;;Eberswalder SV;4724;00:00:50,82;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;2;;Yaman, Arda;456949;154;M;2015;;Eberswalder SV;4724;00:00:52,65;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;3;;Sanoyan, Edgar;466400;45;M;2015;;SG Aufbau Eisenhüttenstadt;6636;00:00:53,07;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;4;;Killermann, Constantin;450175;120;M;2015;;Eberswalder SV;4724;00:00:54,43;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;5;;Krauße, Tim;446927;74;M;2015;;SSV PCK 90 Schwedt;4738;00:01:01,21;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;6;;Möschter, Lennard Veit;454945;129;M;2015;;Eberswalder SV;4724;00:01:08,54;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;0;NA;Grützmacher, Paul;474313;65;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 17;E;17001;0;DS;Pohlan, Mats;454944;85;M;2015;;SSV PCK 90 Schwedt;4738;00:00:00,00;Der Sportler hielt mehrmals an der Seitenwand an und nutzte dies zum Vorziehen.;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18002;1;;Littmann, Mira;446914;78;W;2014;;SSV PCK 90 Schwedt;4738;00:00:39,33;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;2;;Bruckmann, Nele;460773;107;W;2014;;Eberswalder SV;4724;00:00:39,95;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;3;;Wenzlaff, Leni Caroline;457064;152;W;2014;;Eberswalder SV;4724;00:00:42,03;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;4;;Siebert, Alma;449300;142;W;2014;;Eberswalder SV;4724;00:00:47,08;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;5;;Moritz, Marlene;470439;26;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:47,42;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;6;;Buchholz, Alva;446919;55;W;2014;;SSV PCK 90 Schwedt;4738;00:00:48,57;;;;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;7;;Schneider, Lisbeth;470438;32;W;2014;;Schwimmsportverein Wildau e.V.;6665;00:00:48,80;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;8;;Sternkiker, Lina;463321;90;W;2014;;SSV PCK 90 Schwedt;4738;00:00:50,91;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;9;;Seeliger, Grete;447377;141;W;2014;;Eberswalder SV;4724;00:00:51,80;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18002;10;;Kaminsky, Rieke;452325;119;W;2014;;Eberswalder SV;4724;00:01:01,53;;;GER;;; (* Jahrgang 2014 *)
+PNERGEBNIS: 18;E;18001;1;;Stelse, Marcia Mariella;455477;145;W;2015;;Eberswalder SV;4724;00:00:43,57;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;2;;Lüttkopf, Ida;454943;127;W;2015;;Eberswalder SV;4724;00:00:44,64;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;3;;Graudenz, Stine;446928;62;W;2015;;SSV PCK 90 Schwedt;4738;00:00:50,86;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;4;;Lönne, Charlotte Luise;454938;125;W;2015;;Eberswalder SV;4724;00:00:56,21;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;5;;Krüger, Ruby;464293;124;W;2015;;Eberswalder SV;4724;00:00:57,14;;;GER;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;6;;Krauße, Greta;446926;72;W;2015;;SSV PCK 90 Schwedt;4738;00:00:57,71;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 18;E;18001;7;;Fatke, Naira Junika;446925;59;W;2015;;SSV PCK 90 Schwedt;4738;00:00:58,81;;;;;; (* Jahrgang 2015 *)
+PNERGEBNIS: 19;E;19009;1;;Freier, Alexander;447141;111;M;1997;25;Eberswalder SV;4724;00:00:59,14;;;GER;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 111;19;E;50;00:00:28,10;
+PNERGEBNIS: 19;E;19009;2;;Sippmann, Paul;125827;143;M;1990;30;Eberswalder SV;4724;00:00:59,23;;;GER;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 143;19;E;50;00:00:27,62;
+PNERGEBNIS: 19;E;19009;3;;Saremba, Andreas;397537;134;M;1969;50;Eberswalder SV;4724;00:01:14,10;;;GER;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 19;E;19009;0;AB;Grote, Andreas;373273;63;M;1980;40;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 19;E;19007;1;;Riemelt, Milan;368034;133;M;2007;;Eberswalder SV;4724;00:01:00,75;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 133;19;E;50;00:00:28,65;
+PNERGEBNIS: 19;E;19007;2;;Bertholdt, Bela;384702;13;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:03,79;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 13;19;E;50;00:00:30,93;
+PNERGEBNIS: 19;E;19007;3;;Bublak, Emil;386917;16;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:07,96;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 16;19;E;50;00:00:32,88;
+PNERGEBNIS: 19;E;19006;1;;Lüttkopf, Emil;384009;126;M;2008;;Eberswalder SV;4724;00:00:59,46;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 126;19;E;50;00:00:28,46;
+PNERGEBNIS: 19;E;19006;2;;Trost, Alexander;379489;93;M;2008;;SSV PCK 90 Schwedt;4738;00:01:03,59;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 93;19;E;50;00:00:31,09;
+PNERGEBNIS: 19;E;19006;3;;Kleinke, Jonas;386677;68;M;2008;;SSV PCK 90 Schwedt;4738;00:01:05,82;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 19;E;19006;4;;Fritze, Adrian;424013;113;M;2008;;Eberswalder SV;4724;00:01:11,10;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 113;19;E;50;00:00:33,18;
+PNERGEBNIS: 19;E;19006;5;;Lienert, John;379486;76;M;2008;;SSV PCK 90 Schwedt;4738;00:01:11,49;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 76;19;E;50;00:00:34,40;
+PNERGEBNIS: 19;E;19006;6;;Schleip, Benjamin;000000;136;M;2008;;Eberswalder SV;4724;00:01:20,04;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 19;E;19005;1;;Engelien, Felix;397849;36;M;2009;;SG Aufbau Eisenhüttenstadt;6636;00:01:15,93;;;;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 36;19;E;50;00:00:36,51;
+PNERGEBNIS: 19;E;19005;2;;Buckow, Emil;394797;56;M;2009;;SSV PCK 90 Schwedt;4738;00:01:17,14;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 56;19;E;50;00:00:36,39;
+PNERGEBNIS: 19;E;19005;3;;Jahn, Henning Peter;397536;114;M;2009;;Eberswalder SV;4724;00:01:25,87;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 19;E;19004;1;;Natusch, Lion Maxim;410336;27;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:05,41;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 27;19;E;50;00:00:31,60;
+PNERGEBNIS: 19;E;19004;2;;Matzmohr, Piet;423665;25;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:10,81;;;GER;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 19;E;19004;3;;Tosi, Davide;413394;9;M;2010;;Pro Sport Berlin 24;5626;00:01:16,99;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 9;19;E;50;00:00:37,77;
+PNERGEBNIS: 19;E;19004;4;;Lukosius, Laurynas;431255;41;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:17,14;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 41;19;E;50;00:00:36,43;
+PNERGEBNIS: 19;E;19004;5;;Wagner, Ben;409100;49;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:29,62;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 49;19;E;50;00:00:43,10;
+PNERGEBNIS: 19;E;19003;1;;Zink, Anton Kai;402763;155;M;2011;;Eberswalder SV;4724;00:01:05,66;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 19;E;19003;2;;Kaminsky, Malte;424019;118;M;2011;;Eberswalder SV;4724;00:01:28,75;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 118;19;E;50;00:00:41,19;
+PNERGEBNIS: 19;E;19003;3;;Bormann, Jan;465292;15;M;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:32,16;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 15;19;E;50;00:00:42,57;
+PNERGEBNIS: 19;E;19002;1;;Winkelmann, Johannes Erich;428773;153;M;2012;;Eberswalder SV;4724;00:01:19,67;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 153;19;E;50;00:00:38,13;
+PNERGEBNIS: 19;E;19002;2;;Clerc, Levi;428776;108;M;2012;;Eberswalder SV;4724;00:01:28,14;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 108;19;E;50;00:00:40,86;
+PNERGEBNIS: 19;E;19002;3;;Lemke, Lukas;436575;75;M;2012;;SSV PCK 90 Schwedt;4738;00:01:30,69;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 75;19;E;50;00:00:42,22;
+PNERGEBNIS: 19;E;19002;4;;Kluthe, Theo;452365;122;M;2012;;Eberswalder SV;4724;00:01:33,21;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 122;19;E;50;00:00:41,55;
+PNERGEBNIS: 19;E;19002;5;;Tran, Lai Minh;440591;150;M;2012;;Eberswalder SV;4724;00:01:43,15;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 150;19;E;50;00:00:47,88;
+PNERGEBNIS: 19;E;19002;6;;Venus, Florian;470562;34;M;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:51,59;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 19;E;19002;0;NA;Zink, Ben;464848;35;M;2012;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 19;E;19001;1;;Lück, Janis;446940;79;M;2013;;SSV PCK 90 Schwedt;4738;00:01:22,39;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 79;19;E;50;00:00:39,57;
+PNERGEBNIS: 19;E;19001;2;;Obel, Leopold;460508;28;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:36,52;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 28;19;E;50;00:00:46,48;
+PNERGEBNIS: 19;E;19001;3;;Schulze, Felix;460510;33;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:57,12;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 20;E;20009;1;;Bowitz, Lilien;315146;53;W;2004;;SSV PCK 90 Schwedt;4738;00:01:09,43;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 53;20;E;50;00:00:33,70;
+PNERGEBNIS: 20;E;20009;2;;Schlensog, Cosima;345742;46;W;2003;20;SG Aufbau Eisenhüttenstadt;6636;00:01:09,72;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 46;20;E;50;00:00:32,93;
+PNERGEBNIS: 20;E;20008;1;;Köder, Lotte Polly;430038;6;W;2006;;Pro Sport Berlin 24;5626;00:01:30,22;;;GER;;; (* Jahrgang 2006 *)
+PNERGEBNIS: 20;E;20007;1;;Engelmann, Hanna;362555;57;W;2007;;SSV PCK 90 Schwedt;4738;00:01:03,94;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 57;20;E;50;00:00:30,68;
+PNERGEBNIS: 20;E;20007;2;;Grote, Maritka;362560;64;W;2007;;SSV PCK 90 Schwedt;4738;00:01:10,58;;;GER;;; (* Jahrgang 2007 *)
+PNERGEBNIS: 20;E;20007;3;;Mende, Alexis Fabienne;407047;43;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:20,20;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 43;20;E;50;00:00:36,32;
+PNERGEBNIS: 20;E;20007;4;;Jung, Sina;368033;117;W;2007;;Eberswalder SV;4724;00:01:21,00;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 117;20;E;50;00:00:37,84;
+PNERGEBNIS: 20;E;20007;5;;Noll, Theresa;475037;7;W;2007;;Pro Sport Berlin 24;5626;00:01:21,42;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 7;20;E;50;00:00:39,54;
+PNERGEBNIS: 20;E;20007;6;;Ledwig, Marie Luise;474569;40;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:31,22;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 40;20;E;50;00:00:41,02;
+PNERGEBNIS: 20;E;20006;1;;Tenbusch, Tarya;402761;148;W;2008;;Eberswalder SV;4724;00:01:04,97;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 148;20;E;50;00:00:31,05;
+PNERGEBNIS: 20;E;20006;2;;Saremba, Luise;347465;135;W;2008;;Eberswalder SV;4724;00:01:05,99;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 20;E;20006;3;;Matern, Sarah-Sophie;379495;83;W;2008;;SSV PCK 90 Schwedt;4738;00:01:09,68;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 20;E;20006;4;;Knauth, Louisa;431855;5;W;2008;;Pro Sport Berlin 24;5626;00:01:18,13;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 5;20;E;50;00:00:36,47;
+PNERGEBNIS: 20;E;20006;5;;Jacobi, Annikki;475039;4;W;2008;;Pro Sport Berlin 24;5626;00:01:22,95;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 20;E;20006;6;;Marciszewka, Wiktoria;480920;81;W;2008;;SSV PCK 90 Schwedt;4738;00:01:40,84;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 20;E;20006;0;AB;Willim, Malea;379488;95;W;2008;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 20;E;20005;1;;Pratzer, Laura;433809;131;W;2009;;Eberswalder SV;4724;00:01:20,05;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 20;E;20004;1;;Schröder, Josephine;413974;139;W;2010;;Eberswalder SV;4724;00:01:24,53;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 139;20;E;50;00:00:39,70;
+PNERGEBNIS: 20;E;20004;2;;Schulz, Katharina;412529;47;W;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:25,93;;;;;; (* Jahrgang 2010 *)
+PNERGEBNIS: 20;E;20004;3;;Bläsing, Freya;465291;14;W;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:28,06;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 14;20;E;50;00:00:41,84;
+PNERGEBNIS: 20;E;20004;4;;Kschadow, Maja;433351;22;W;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:28,78;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 22;20;E;50;00:00:41,95;
+PNERGEBNIS: 20;E;20003;1;;Kroll, Amy-Jolie;424021;123;W;2011;;Eberswalder SV;4724;00:01:08,82;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 123;20;E;50;00:00:33,25;
+PNERGEBNIS: 20;E;20003;2;;Köppen, Wilhelmina;423666;21;W;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:12,08;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 21;20;E;50;00:00:34,60;
+PNERGEBNIS: 20;E;20003;3;;Lienert, Marie;423581;77;W;2011;;SSV PCK 90 Schwedt;4738;00:01:17,07;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 20;E;20003;4;;Krauße, Stella-Lotte;436568;73;W;2011;;SSV PCK 90 Schwedt;4738;00:01:18,06;;;GER;;; (* Jahrgang 2011 *)
+PNERGEBNIS: 20;E;20003;5;;Stiller, Luise;402765;147;W;2011;;Eberswalder SV;4724;00:01:18,35;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 147;20;E;50;00:00:38,82;
+PNERGEBNIS: 20;E;20003;6;;Arsand, Carolin;402767;104;W;2011;;Eberswalder SV;4724;00:01:19,45;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 104;20;E;50;00:00:37,72;
+PNERGEBNIS: 20;E;20003;7;;Gain, Sylvie;471486;2;W;2011;;Pro Sport Berlin 24;5626;00:01:23,30;;;;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 2;20;E;50;00:00:38,83;
+PNERGEBNIS: 20;E;20003;8;;Bendzko, Flavia;423577;106;W;2011;;Eberswalder SV;4724;00:01:23,88;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 106;20;E;50;00:00:39,75;
+PNERGEBNIS: 20;E;20003;9;;Tenbusch, Tessa;428780;149;W;2011;;Eberswalder SV;4724;00:01:24,16;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 149;20;E;50;00:00:38,85;
+PNERGEBNIS: 20;E;20003;10;;Jahn, Rosalie;435296;115;W;2011;;Eberswalder SV;4724;00:01:32,12;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 115;20;E;50;00:00:42,85;
+PNERGEBNIS: 20;E;20003;11;;von Bredow, Oda Margarete;430040;10;W;2011;;Pro Sport Berlin 24;5626;00:01:45,33;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 10;20;E;50;00:00:47,06;
+PNERGEBNIS: 20;E;20002;1;;Ludwig, Pia May;423572;80;W;2012;;SSV PCK 90 Schwedt;4738;00:01:08,37;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 80;20;E;50;00:00:32,57;
+PNERGEBNIS: 20;E;20002;2;;Schulze, Frieda Helene;428777;140;W;2012;;Eberswalder SV;4724;00:01:11,72;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 140;20;E;50;00:00:34,33;
+PNERGEBNIS: 20;E;20002;3;;Gayk, Hedy-Lotta;449644;61;W;2012;;SSV PCK 90 Schwedt;4738;00:01:36,70;;;;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 61;20;E;50;00:00:45,50;
+PNERGEBNIS: 20;E;20002;4;;Dehnel, Fanny;464847;17;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:37,30;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 17;20;E;50;00:00:46,62;
+PNERGEBNIS: 20;E;20002;5;;Schneider, Helene;464844;31;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:01:41,48;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 31;20;E;50;00:00:45,33;
+PNERGEBNIS: 20;E;20002;6;;Lukosiute, Fausta;437943;42;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:01:42,08;;;;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 42;20;E;50;00:00:45,56;
+PNERGEBNIS: 20;E;20002;0;DS;Leuendorf, Charlotte;464917;24;W;2012;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;Der Sportler startete vor dem Startsignal;;GER;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 20;E;20001;1;;Kochinke, Lotta-Estelle;436570;71;W;2013;;SSV PCK 90 Schwedt;4738;00:01:17,44;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 71;20;E;50;00:00:37,94;
+PNERGEBNIS: 20;E;20001;2;;Willim, Nela;446938;96;W;2013;;SSV PCK 90 Schwedt;4738;00:01:30,23;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 96;20;E;50;00:00:42,10;
+PNERGEBNIS: 20;E;20001;3;;Mewes, Tamina;440594;128;W;2013;;Eberswalder SV;4724;00:01:38,22;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 128;20;E;50;00:00:46,35;
+PNERGEBNIS: 20;E;20001;4;;Paschke, Gwenda;460704;30;W;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:45,93;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 20;E;20001;5;;Gain, Xanthe;475105;3;W;2013;;Pro Sport Berlin 24;5626;00:01:46,39;;;;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 3;20;E;50;00:00:49,82;
+PNERGEBNIS: 20;E;20001;0;AB;Fatke, Luna Victoria;446917;58;W;2013;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 21;E;21010;0;AB;Grote, Andreas;373273;63;M;1980;40;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2005 und älter *)
+PNERGEBNIS: 21;E;21008;1;;Bertholdt, Bela;384702;13;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:14,35;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 13;21;E;50;00:00:34,71;
+PNERGEBNIS: 21;E;21008;2;;Bublak, Emil;386917;16;M;2007;;Schwimmsportverein Wildau e.V.;6665;00:01:17,91;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 16;21;E;50;00:00:37,86;
+PNERGEBNIS: 21;E;21007;1;;Sasse, Cedric;379485;87;M;2008;;SSV PCK 90 Schwedt;4738;00:01:06,72;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 87;21;E;50;00:00:32,01;
+PNERGEBNIS: 21;E;21007;2;;Lüttkopf, Emil;384009;126;M;2008;;Eberswalder SV;4724;00:01:10,69;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 126;21;E;50;00:00:33,24;
+PNERGEBNIS: 21;E;21007;3;;Kleinke, Jonas;386677;68;M;2008;;SSV PCK 90 Schwedt;4738;00:01:12,97;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 68;21;E;50;00:00:33,09;
+PNERGEBNIS: 21;E;21007;4;;Lienert, John;379486;76;M;2008;;SSV PCK 90 Schwedt;4738;00:01:17,19;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 76;21;E;50;00:00:37,00;
+PNERGEBNIS: 21;E;21007;5;;Trost, Alexander;379489;93;M;2008;;SSV PCK 90 Schwedt;4738;00:01:17,36;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 93;21;E;50;00:00:33,64;
+PNERGEBNIS: 21;E;21007;6;;Fritze, Adrian;424013;113;M;2008;;Eberswalder SV;4724;00:01:19,02;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 113;21;E;50;00:00:38,14;
+PNERGEBNIS: 21;E;21007;7;;Schleip, Benjamin;000000;136;M;2008;;Eberswalder SV;4724;00:01:27,04;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 136;21;E;50;00:00:41,12;
+PNERGEBNIS: 21;E;21007;0;NA;Ianovytskyi, Ivan;457995;19;M;2008;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 21;E;21006;1;;Engelien, Felix;397849;36;M;2009;;SG Aufbau Eisenhüttenstadt;6636;00:01:17,10;;;;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 36;21;E;50;00:00:37,57;
+PNERGEBNIS: 21;E;21006;2;;Buckow, Emil;394797;56;M;2009;;SSV PCK 90 Schwedt;4738;00:01:29,85;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 56;21;E;50;00:00:41,45;
+PNERGEBNIS: 21;E;21006;3;;Jahn, Henning Peter;397536;114;M;2009;;Eberswalder SV;4724;00:01:36,66;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 114;21;E;50;00:00:45,03;
+PNERGEBNIS: 21;E;21005;1;;Natusch, Lion Maxim;410336;27;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:17,93;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 27;21;E;50;00:00:35,08;
+PNERGEBNIS: 21;E;21005;2;;Matzmohr, Piet;423665;25;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:19,06;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 25;21;E;50;00:00:37,27;
+PNERGEBNIS: 21;E;21005;3;;Kühnast, Nicolas;416250;23;M;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:22,40;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 23;21;E;50;00:00:36,70;
+PNERGEBNIS: 21;E;21005;4;;Lukosius, Laurynas;431255;41;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:29,58;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 41;21;E;50;00:00:41,99;
+PNERGEBNIS: 21;E;21005;5;;Tosi, Davide;413394;9;M;2010;;Pro Sport Berlin 24;5626;00:01:30,86;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 9;21;E;50;00:00:42,75;
+PNERGEBNIS: 21;E;21005;6;;Wagner, Ben;409100;49;M;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:38,01;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 49;21;E;50;00:00:46,58;
+PNERGEBNIS: 21;E;21004;1;;Kaminsky, Malte;424019;118;M;2011;;Eberswalder SV;4724;00:01:41,73;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 118;21;E;50;00:00:49,34;
+PNERGEBNIS: 21;E;21003;1;;Winkelmann, Johannes Erich;428773;153;M;2012;;Eberswalder SV;4724;00:01:31,94;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 153;21;E;50;00:00:44,55;
+PNERGEBNIS: 21;E;21003;2;;Kluthe, Theo;452365;122;M;2012;;Eberswalder SV;4724;00:01:42,36;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 122;21;E;50;00:00:47,84;
+PNERGEBNIS: 21;E;21003;3;;Thiele, Jonas;436782;48;M;2012;;SG Aufbau Eisenhüttenstadt;6636;00:01:44,22;;;;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 48;21;E;50;00:00:52,43;
+PNERGEBNIS: 21;E;21002;1;;Obel, Leopold;460508;28;M;2013;;Schwimmsportverein Wildau e.V.;6665;00:01:48,13;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 28;21;E;50;00:00:53,75;
+PNERGEBNIS: 21;E;21002;2;;Schmidt, Jossip;447549;138;M;2013;;Eberswalder SV;4724;00:02:00,18;;;GER;;; (* Jahrgang 2013 *)
+PNERGEBNIS: 21;E;21001;1;;Schleip, Jonathan;447139;137;M;2014;;Eberswalder SV;4724;00:01:43,97;;;GER;;; (* Jahrgang 2014 *)
+PNZWISCHENZEIT: 137;21;E;50;00:00:50,81;
+PNERGEBNIS: 22;E;22010;1;;Schlensog, Cosima;345742;46;W;2003;20;SG Aufbau Eisenhüttenstadt;6636;00:01:16,97;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 46;22;E;50;00:00:37,12;
+PNERGEBNIS: 22;E;22010;2;;Bowitz, Lilien;315146;53;W;2004;;SSV PCK 90 Schwedt;4738;00:01:17,14;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 53;22;E;50;00:00:35,08;
+PNERGEBNIS: 22;E;22010;3;;Sasse, Tabea;315166;88;W;2004;;SSV PCK 90 Schwedt;4738;00:01:17,56;;;;;; (* Jahrgang 2005 und älter *)
+PNZWISCHENZEIT: 88;22;E;50;00:00:36,65;
+PNERGEBNIS: 22;E;22009;1;;Köder, Lotte Polly;430038;6;W;2006;;Pro Sport Berlin 24;5626;00:01:41,25;;;GER;;; (* Jahrgang 2006 *)
+PNZWISCHENZEIT: 6;22;E;50;00:00:50,18;
+PNERGEBNIS: 22;E;22008;1;;Engelmann, Hanna;362555;57;W;2007;;SSV PCK 90 Schwedt;4738;00:01:14,13;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 57;22;E;50;00:00:35,41;
+PNERGEBNIS: 22;E;22008;2;;Grote, Maritka;362560;64;W;2007;;SSV PCK 90 Schwedt;4738;00:01:20,95;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 64;22;E;50;00:00:38,28;
+PNERGEBNIS: 22;E;22008;3;;Mende, Alexis Fabienne;407047;43;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:29,64;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 43;22;E;50;00:00:41,53;
+PNERGEBNIS: 22;E;22008;4;;Jung, Sina;368033;117;W;2007;;Eberswalder SV;4724;00:01:32,94;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 117;22;E;50;00:00:41,72;
+PNERGEBNIS: 22;E;22008;5;;Noll, Theresa;475037;7;W;2007;;Pro Sport Berlin 24;5626;00:01:36,26;;;GER;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 7;22;E;50;00:00:49,26;
+PNERGEBNIS: 22;E;22008;6;;Ledwig, Marie Luise;474569;40;W;2007;;SG Aufbau Eisenhüttenstadt;6636;00:01:41,84;;;;;; (* Jahrgang 2007 *)
+PNZWISCHENZEIT: 40;22;E;50;00:00:49,80;
+PNERGEBNIS: 22;E;22007;1;;Tenbusch, Tarya;402761;148;W;2008;;Eberswalder SV;4724;00:01:13,84;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 148;22;E;50;00:00:33,73;
+PNERGEBNIS: 22;E;22007;2;;Saremba, Luise;347465;135;W;2008;;Eberswalder SV;4724;00:01:14,04;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 135;22;E;50;00:00:33,79;
+PNERGEBNIS: 22;E;22007;3;;Philipp, Karolin;380101;44;W;2008;;SG Aufbau Eisenhüttenstadt;6636;00:01:21,75;;;;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 44;22;E;50;00:00:36,63;
+PNERGEBNIS: 22;E;22007;4;;Matern, Sarah-Sophie;379495;83;W;2008;;SSV PCK 90 Schwedt;4738;00:01:22,64;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 83;22;E;50;00:00:38,61;
+PNERGEBNIS: 22;E;22007;5;;Knauth, Louisa;431855;5;W;2008;;Pro Sport Berlin 24;5626;00:01:28,08;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 5;22;E;50;00:00:40,03;
+PNERGEBNIS: 22;E;22007;6;;Jacobi, Annikki;475039;4;W;2008;;Pro Sport Berlin 24;5626;00:01:34,22;;;GER;;; (* Jahrgang 2008 *)
+PNZWISCHENZEIT: 4;22;E;50;00:00:47,57;
+PNERGEBNIS: 22;E;22007;0;AB;Willim, Malea;379488;95;W;2008;;SSV PCK 90 Schwedt;4738;00:00:00,00;;;GER;;; (* Jahrgang 2008 *)
+PNERGEBNIS: 22;E;22006;1;;Brykczynski, Lana;385082;54;W;2009;;SSV PCK 90 Schwedt;4738;00:01:10,23;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 54;22;E;50;00:00:32,49;
+PNERGEBNIS: 22;E;22006;2;;Pratzer, Laura;433809;131;W;2009;;Eberswalder SV;4724;00:01:28,45;;;GER;;; (* Jahrgang 2009 *)
+PNZWISCHENZEIT: 131;22;E;50;00:00:41,71;
+PNERGEBNIS: 22;E;22006;0;NA;Pankratz, Fiona;436254;29;W;2009;;Schwimmsportverein Wildau e.V.;6665;00:00:00,00;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 22;E;22006;0;AB;Clerc, Noa;384007;109;W;2009;;Eberswalder SV;4724;00:00:00,00;;;GER;;; (* Jahrgang 2009 *)
+PNERGEBNIS: 22;E;22005;1;;Putzke, Victoria;414209;86;W;2010;;SSV PCK 90 Schwedt;4738;00:01:19,39;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 86;22;E;50;00:00:34,82;
+PNERGEBNIS: 22;E;22005;2;;Schröder, Josephine;413974;139;W;2010;;Eberswalder SV;4724;00:01:34,53;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 139;22;E;50;00:00:45,27;
+PNERGEBNIS: 22;E;22005;3;;Schulz, Katharina;412529;47;W;2010;;SG Aufbau Eisenhüttenstadt;6636;00:01:36,18;;;;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 47;22;E;50;00:00:46,33;
+PNERGEBNIS: 22;E;22005;4;;Kschadow, Maja;433351;22;W;2010;;Schwimmsportverein Wildau e.V.;6665;00:01:38,28;;;GER;;; (* Jahrgang 2010 *)
+PNZWISCHENZEIT: 22;22;E;50;00:00:47,39;
+PNERGEBNIS: 22;E;22004;1;;Kroll, Amy-Jolie;424021;123;W;2011;;Eberswalder SV;4724;00:01:18,25;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 123;22;E;50;00:00:36,88;
+PNERGEBNIS: 22;E;22004;2;;Köppen, Wilhelmina;423666;21;W;2011;;Schwimmsportverein Wildau e.V.;6665;00:01:20,67;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 21;22;E;50;00:00:37,16;
+PNERGEBNIS: 22;E;22004;3;;Krauße, Stella-Lotte;436568;73;W;2011;;SSV PCK 90 Schwedt;4738;00:01:26,83;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 73;22;E;50;00:00:41,21;
+PNERGEBNIS: 22;E;22004;4;;Arsand, Carolin;402767;104;W;2011;;Eberswalder SV;4724;00:01:27,75;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 104;22;E;50;00:00:39,07;
+PNERGEBNIS: 22;E;22004;5;;Lienert, Marie;423581;77;W;2011;;SSV PCK 90 Schwedt;4738;00:01:28,75;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 77;22;E;50;00:00:44,55;
+PNERGEBNIS: 22;E;22004;6;;Stiller, Luise;402765;147;W;2011;;Eberswalder SV;4724;00:01:28,90;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 147;22;E;50;00:00:41,27;
+PNERGEBNIS: 22;E;22004;7;;Tenbusch, Tessa;428780;149;W;2011;;Eberswalder SV;4724;00:01:29,91;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 149;22;E;50;00:00:42,09;
+PNERGEBNIS: 22;E;22004;8;;Bendzko, Flavia;423577;106;W;2011;;Eberswalder SV;4724;00:01:34,43;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 106;22;E;50;00:00:46,21;
+PNERGEBNIS: 22;E;22004;9;;Jahn, Rosalie;435296;115;W;2011;;Eberswalder SV;4724;00:01:41,29;;;GER;;; (* Jahrgang 2011 *)
+PNZWISCHENZEIT: 115;22;E;50;00:00:45,47;
+PNERGEBNIS: 22;E;22003;1;;Ludwig, Pia May;423572;80;W;2012;;SSV PCK 90 Schwedt;4738;00:01:25,18;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 80;22;E;50;00:00:38,44;
+PNERGEBNIS: 22;E;22003;2;;Hauschild, Milena;436566;66;W;2012;;SSV PCK 90 Schwedt;4738;00:01:35,30;;;GER;;; (* Jahrgang 2012 *)
+PNZWISCHENZEIT: 66;22;E;50;00:00:42,84;
+PNERGEBNIS: 22;E;22003;0;NA;Engelien, Marie;436781;37;W;2012;;SG Aufbau Eisenhüttenstadt;6636;00:00:00,00;;;;;; (* Jahrgang 2012 *)
+PNERGEBNIS: 22;E;22002;1;;Klatt, Nele;412293;157;W;2013;;SG Neukölln e.V. Berlin;5621;00:01:42,93;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 157;22;E;50;00:00:48,87;
+PNERGEBNIS: 22;E;22002;2;;Tinginies, Emilia;447021;92;W;2013;;SSV PCK 90 Schwedt;4738;00:01:45,42;;;GER;;; (* Jahrgang 2013 *)
+PNZWISCHENZEIT: 92;22;E;50;00:00:51,37;
+PNERGEBNIS: 22;E;22001;1;;Littmann, Mira;446914;78;W;2014;;SSV PCK 90 Schwedt;4738;00:01:38,09;;;GER;;; (* Jahrgang 2014 *)
+PNZWISCHENZEIT: 78;22;E;50;00:00:44,92;
+PNERGEBNIS: 22;E;22001;2;;Bruckmann, Nele;460773;107;W;2014;;Eberswalder SV;4724;00:01:39,04;;;GER;;; (* Jahrgang 2014 *)
+PNZWISCHENZEIT: 107;22;E;50;00:00:42,42;
+PNERGEBNIS: 22;E;22001;3;;Wenzlaff, Leni Caroline;457064;152;W;2014;;Eberswalder SV;4724;00:01:40,90;;;GER;;; (* Jahrgang 2014 *)
+PNZWISCHENZEIT: 152;22;E;50;00:00:46,39;
+PNERGEBNIS: 22;E;22001;4;;Buchholz, Alva;446919;55;W;2014;;SSV PCK 90 Schwedt;4738;00:01:59,61;;;;;; (* Jahrgang 2014 *)
+PNZWISCHENZEIT: 55;22;E;50;00:00:57,90;
+STERGEBNIS: 23;E;23001;1;;1;50;SSV PCK 90 Schwedt;4738;00:04:12,56;;;; (* Offene Wertung *)
+STAFFELPERSON: 50;23;E;Kleinke, Jonas;386677;1;M;2008;;;;;
+STAFFELPERSON: 50;23;E;Brykczynski, Lana;385082;2;W;2009;;;;;
+STAFFELPERSON: 50;23;E;Sasse, Cedric;379485;3;M;2008;;;;;
+STAFFELPERSON: 50;23;E;Engelmann, Hanna;362555;4;W;2007;;;;;
+STAFFELPERSON: 50;23;E;Lienert, John;379486;5;M;2008;;;;;
+STAFFELPERSON: 50;23;E;Sasse, Tabea;315166;6;W;2004;;;;;
+STAFFELPERSON: 50;23;E;Trost, Alexander;379489;7;M;2008;;;;;
+STAFFELPERSON: 50;23;E;Matern, Sarah-Sophie;379495;8;W;2008;;;;;
+STZWISCHENZEIT: 50;23;E;1;50;00:00:30,89;
+STZWISCHENZEIT: 50;23;E;2;100;00:01:02,36;
+STZWISCHENZEIT: 50;23;E;3;150;00:01:34,43;
+STZWISCHENZEIT: 50;23;E;4;200;00:02:09,68;
+STZWISCHENZEIT: 50;23;E;5;250;00:02:41,77;
+STZWISCHENZEIT: 50;23;E;6;300;00:03:14,83;
+STZWISCHENZEIT: 50;23;E;7;350;00:03:41,58;
+STERGEBNIS: 23;E;23001;2;;1;97;Eberswalder SV;4724;00:04:21,06;;;; (* Offene Wertung *)
+STAFFELPERSON: 97;23;E;Lüttkopf, Emil;384009;1;M;2008;;;;;
+STAFFELPERSON: 97;23;E;Tenbusch, Tarya;402761;2;W;2008;;;;;
+STAFFELPERSON: 97;23;E;Zink, Anton Kai;402763;3;M;2011;;;;;
+STAFFELPERSON: 97;23;E;Schulze, Frieda Helene;428777;4;W;2012;;;;;
+STAFFELPERSON: 97;23;E;Freier, Alexander;447141;5;M;1997;25;;;;
+STAFFELPERSON: 97;23;E;Kroll, Amy-Jolie;424021;6;W;2011;;;;;
+STAFFELPERSON: 97;23;E;Sippmann, Paul;125827;7;M;1990;30;;;;
+STAFFELPERSON: 97;23;E;Saremba, Luise;347465;8;W;2008;;;;;
+STZWISCHENZEIT: 97;23;E;1;50;00:00:31,33;
+STZWISCHENZEIT: 97;23;E;2;100;00:01:03,90;
+STZWISCHENZEIT: 97;23;E;3;150;00:01:39,43;
+STZWISCHENZEIT: 97;23;E;4;200;00:02:19,18;
+STZWISCHENZEIT: 97;23;E;5;250;00:02:48,74;
+STZWISCHENZEIT: 97;23;E;6;300;00:03:24,81;
+STZWISCHENZEIT: 97;23;E;7;350;00:03:51,24;
+STERGEBNIS: 23;E;23001;3;;2;98;Eberswalder SV;4724;00:05:02,01;;;; (* Offene Wertung *)
+STAFFELPERSON: 98;23;E;Winkelmann, Johannes Erich;428773;1;M;2012;;;;;
+STAFFELPERSON: 98;23;E;Arsand, Carolin;402767;2;W;2011;;;;;
+STAFFELPERSON: 98;23;E;Fritze, Adrian;424013;3;M;2008;;;;;
+STAFFELPERSON: 98;23;E;Pratzer, Laura;433809;4;W;2009;;;;;
+STAFFELPERSON: 98;23;E;Riemelt, Milan;368034;5;M;2007;;;;;
+STAFFELPERSON: 98;23;E;Jung, Sina;368033;6;W;2007;;;;;
+STAFFELPERSON: 98;23;E;Clerc, Levi;428776;7;M;2012;;;;;
+STAFFELPERSON: 98;23;E;Stiller, Luise;402765;8;W;2011;;;;;
+STZWISCHENZEIT: 98;23;E;1;50;00:00:42,36;
+STZWISCHENZEIT: 98;23;E;2;100;00:01:20,67;
+STZWISCHENZEIT: 98;23;E;3;150;00:01:58,17;
+STZWISCHENZEIT: 98;23;E;4;200;00:02:41,77;
+STZWISCHENZEIT: 98;23;E;5;250;00:03:14,23;
+STZWISCHENZEIT: 98;23;E;6;300;00:03:55,05;
+STZWISCHENZEIT: 98;23;E;7;350;00:04:32,08;
+STERGEBNIS: 23;E;23001;4;;1;11;Schwimmsportverein Wildau e.V.;6665;00:05:07,71;;;; (* Offene Wertung *)
+STAFFELPERSON: 11;23;E;Matzmohr, Piet;423665;1;M;2010;;;;;
+STAFFELPERSON: 11;23;E;König, Hannah Lucia;464846;2;W;2012;;;;;
+STAFFELPERSON: 11;23;E;Natusch, Lion Maxim;410336;3;M;2010;;;;;
+STAFFELPERSON: 11;23;E;Bläsing, Freya;465291;4;W;2010;;;;;
+STAFFELPERSON: 11;23;E;Kühnast, Nicolas;416250;5;M;2010;;;;;
+STAFFELPERSON: 11;23;E;Köppen, Wilhelmina;423666;6;W;2011;;;;;
+STAFFELPERSON: 11;23;E;Bertholdt, Bela;384702;7;M;2007;;;;;
+STAFFELPERSON: 11;23;E;Kschadow, Maja;433351;8;W;2010;;;;;
+STZWISCHENZEIT: 11;23;E;1;50;00:00:34,96;
+STZWISCHENZEIT: 11;23;E;2;100;00:01:22,49;
+STZWISCHENZEIT: 11;23;E;3;150;00:02:02,64;
+STZWISCHENZEIT: 11;23;E;4;200;00:02:48,23;
+STZWISCHENZEIT: 11;23;E;5;250;00:03:23,33;
+STZWISCHENZEIT: 11;23;E;6;300;00:04:00,70;
+STZWISCHENZEIT: 11;23;E;7;350;00:04:29,49;
+STERGEBNIS: 23;E;23001;5;;1;1;Pro Sport Berlin 24;5626;00:05:39,98;;;; (* Offene Wertung *)
+STAFFELPERSON: 1;23;E;Tosi, Davide;413394;1;M;2010;;;;;
+STAFFELPERSON: 1;23;E;Gain, Sylvie;471486;2;W;2011;;;;;
+STAFFELPERSON: 1;23;E;Köder, Lotte Polly;430038;3;W;2006;;;;;
+STAFFELPERSON: 1;23;E;von Bredow, Oda Margarete;430040;4;W;2011;;;;;
+STAFFELPERSON: 1;23;E;Knauth, Louisa;431855;5;W;2008;;;;;
+STAFFELPERSON: 1;23;E;Noll, Theresa;475037;6;W;2007;;;;;
+STAFFELPERSON: 1;23;E;Gain, Xanthe;475105;7;W;2013;;;;;
+STAFFELPERSON: 1;23;E;Jacobi, Annikki;475039;8;W;2008;;;;;
+STZWISCHENZEIT: 1;23;E;1;50;00:00:40,41;
+STZWISCHENZEIT: 1;23;E;2;100;00:01:26,47;
+STZWISCHENZEIT: 1;23;E;3;150;00:02:15,37;
+STZWISCHENZEIT: 1;23;E;4;200;00:02:56,66;
+STZWISCHENZEIT: 1;23;E;5;250;00:03:36,66;
+STZWISCHENZEIT: 1;23;E;6;300;00:04:18,22;
+STZWISCHENZEIT: 1;23;E;7;350;00:05:04,28;
+STERGEBNIS: 23;E;23001;6;;3;99;Eberswalder SV;4724;00:05:49,01;;;; (* Offene Wertung *)
+STAFFELPERSON: 99;23;E;Kluthe, Theo;452365;1;M;2012;;;;;
+STAFFELPERSON: 99;23;E;Schröder, Josephine;413974;2;W;2010;;;;;
+STAFFELPERSON: 99;23;E;Schleip, Benjamin;476234;3;M;2008;;;;;
+STAFFELPERSON: 99;23;E;Bendzko, Flavia;423577;4;W;2011;;;;;
+STAFFELPERSON: 99;23;E;Kaminsky, Malte;424019;5;M;2011;;;;;
+STAFFELPERSON: 99;23;E;Jahn, Rosalie;435296;6;W;2011;;;;;
+STAFFELPERSON: 99;23;E;Jahn, Henning Peter;397536;7;M;2009;;;;;
+STAFFELPERSON: 99;23;E;Tenbusch, Tessa;428780;8;W;2011;;;;;
+STZWISCHENZEIT: 99;23;E;1;50;00:00:45,73;
+STZWISCHENZEIT: 99;23;E;2;100;00:01:29,23;
+STZWISCHENZEIT: 99;23;E;3;150;00:02:09,86;
+STZWISCHENZEIT: 99;23;E;4;200;00:02:59,89;
+STZWISCHENZEIT: 99;23;E;5;250;00:03:45,79;
+STZWISCHENZEIT: 99;23;E;6;300;00:04:33,51;
+STZWISCHENZEIT: 99;23;E;7;350;00:05:12,51;
+STERGEBNIS: 23;E;23001;7;;2;51;SSV PCK 90 Schwedt;4738;00:06:09,19;;;; (* Offene Wertung *)
+STAFFELPERSON: 51;23;E;Lemke, Lukas;436575;1;M;2012;;;;;
+STAFFELPERSON: 51;23;E;Graudenz, Stine;446928;2;W;2015;;;;;
+STAFFELPERSON: 51;23;E;Krauße, Tim;446927;3;M;2015;;;;;
+STAFFELPERSON: 51;23;E;Kochinke, Lotta-Estelle;436570;4;W;2013;;;;;
+STAFFELPERSON: 51;23;E;Lück, Janis;446940;5;M;2013;;;;;
+STAFFELPERSON: 51;23;E;Ludwig, Pia May;423572;6;W;2012;;;;;
+STAFFELPERSON: 51;23;E;Buckow, Emil;394797;7;M;2009;;;;;
+STAFFELPERSON: 51;23;E;Littmann, Mira;446914;8;W;2014;;;;;
+STZWISCHENZEIT: 51;23;E;1;50;00:00:47,05;
+STZWISCHENZEIT: 51;23;E;2;100;00:01:46,61;
+STZWISCHENZEIT: 51;23;E;3;150;00:02:45,64;
+STZWISCHENZEIT: 51;23;E;4;200;00:03:32,89;
+STZWISCHENZEIT: 51;23;E;5;250;00:04:18,21;
+STZWISCHENZEIT: 51;23;E;6;300;00:04:56,36;
+STZWISCHENZEIT: 51;23;E;7;350;00:05:29,27;
+STERGEBNIS: 23;E;23001;8;;2;12;Schwimmsportverein Wildau e.V.;6665;00:06:18,75;;;; (* Offene Wertung *)
+STAFFELPERSON: 12;23;E;Venus, Florian;470562;1;M;2012;;;;;
+STAFFELPERSON: 12;23;E;Moritz, Marlene;470439;2;W;2014;;;;;
+STAFFELPERSON: 12;23;E;Obel, Leopold;460508;3;M;2013;;;;;
+STAFFELPERSON: 12;23;E;Dehnel, Fanny;464847;4;W;2012;;;;;
+STAFFELPERSON: 12;23;E;Bublak, Emil;386917;5;M;2007;;;;;
+STAFFELPERSON: 12;23;E;Klatt, Nele;412293;6;W;2013;;;;;
+STAFFELPERSON: 12;23;E;Bormann, Jan;465292;7;M;2011;;;;;
+STAFFELPERSON: 12;23;E;Schneider, Helene;464844;8;W;2012;;;;;
+STZWISCHENZEIT: 12;23;E;1;50;00:00:49,13;
+STZWISCHENZEIT: 12;23;E;2;100;00:01:44,29;
+STZWISCHENZEIT: 12;23;E;3;150;00:02:37,76;
+STZWISCHENZEIT: 12;23;E;4;200;00:03:28,29;
+STZWISCHENZEIT: 12;23;E;5;250;00:04:01,89;
+STZWISCHENZEIT: 12;23;E;6;300;00:04:52,89;
+STZWISCHENZEIT: 12;23;E;7;350;00:05:31,63;
+STERGEBNIS: 23;E;23001;9;;3;52;SSV PCK 90 Schwedt;4738;00:06:39,99;;;; (* Offene Wertung *)
+STAFFELPERSON: 52;23;E;Marciszewski, Jakub;454211;1;M;2014;;;;;
+STAFFELPERSON: 52;23;E;Fatke, Naira Junika;446925;2;W;2015;;;;;
+STAFFELPERSON: 52;23;E;Knobbe, Till;454208;3;M;2014;;;;;
+STAFFELPERSON: 52;23;E;Krauße, Greta;446926;4;W;2015;;;;;
+STAFFELPERSON: 52;23;E;Grote, Andreas;373273;5;M;1980;40;;;;
+STAFFELPERSON: 52;23;E;Lienert, Marie;423581;6;W;2011;;;;;
+STAFFELPERSON: 52;23;E;Kaddatz, Ben Moritz;479993;7;M;2014;;;;;
+STAFFELPERSON: 52;23;E;Sternkiker, Lina;463321;8;W;2014;;;;;
+STZWISCHENZEIT: 52;23;E;1;50;00:00:58,54;
+STZWISCHENZEIT: 52;23;E;2;100;00:01:49,89;
+STZWISCHENZEIT: 52;23;E;3;150;00:02:49,07;
+STZWISCHENZEIT: 52;23;E;4;200;00:03:48,01;
+STZWISCHENZEIT: 52;23;E;5;250;00:04:18,89;
+STZWISCHENZEIT: 52;23;E;6;300;00:05:00,45;
+STZWISCHENZEIT: 52;23;E;7;350;00:05:48,38;
+STERGEBNIS: 23;E;23001;10;;4;100;Eberswalder SV;4724;00:06:54,07;;;; (* Offene Wertung *)
+STAFFELPERSON: 100;23;E;Zink, Oskar Kai;447646;1;M;2015;;;;;
+STAFFELPERSON: 100;23;E;Lüttkopf, Ida;454943;2;W;2015;;;;;
+STAFFELPERSON: 100;23;E;Fiedler, Lias;000000;3;M;2015;;;;;
+STAFFELPERSON: 100;23;E;Krüger, Ruby;464293;4;W;2015;;;;;
+STAFFELPERSON: 100;23;E;Schleip, Jonathan;447139;5;M;2014;;;;;
+STAFFELPERSON: 100;23;E;Wenzlaff, Leni Caroline;457064;6;W;2014;;;;;
+STAFFELPERSON: 100;23;E;Tran, Lai Minh;440591;7;M;2012;;;;;
+STAFFELPERSON: 100;23;E;Bruckmann, Nele;460773;8;W;2014;;;;;
+STZWISCHENZEIT: 100;23;E;1;50;00:00:56,51;
+STZWISCHENZEIT: 100;23;E;2;100;00:01:47,76;
+STZWISCHENZEIT: 100;23;E;3;150;00:02:44,73;
+STZWISCHENZEIT: 100;23;E;4;200;00:03:44,07;
+STZWISCHENZEIT: 100;23;E;5;250;00:04:41,86;
+STZWISCHENZEIT: 100;23;E;6;300;00:05:28,29;
+STZWISCHENZEIT: 100;23;E;7;350;00:06:14,07;
+STERGEBNIS: 23;E;23001;11;;5;101;Eberswalder SV;4724;00:07:15,85;;;; (* Offene Wertung *)
+STAFFELPERSON: 101;23;E;Arsand, Hendrik;455462;1;M;2014;;;;;
+STAFFELPERSON: 101;23;E;Seeliger, Grete;447377;2;W;2014;;;;;
+STAFFELPERSON: 101;23;E;Stiller, Leopold;447978;3;M;2014;;;;;
+STAFFELPERSON: 101;23;E;Patzwald, Linnea;447517;4;W;2013;;;;;
+STAFFELPERSON: 101;23;E;Saremba, Andreas;397537;5;M;1969;50;;;;
+STAFFELPERSON: 101;23;E;Mewes, Tamina;440594;6;W;2013;;;;;
+STAFFELPERSON: 101;23;E;Killermann, Constantin;450175;7;M;2015;;;;;
+STAFFELPERSON: 101;23;E;Stelse, Marcia Mariella;455477;8;W;2015;;;;;
+STZWISCHENZEIT: 101;23;E;1;50;00:00:58,64;
+STZWISCHENZEIT: 101;23;E;2;100;00:01:56,63;
+STZWISCHENZEIT: 101;23;E;3;150;00:02:59,69;
+STZWISCHENZEIT: 101;23;E;4;200;00:04:00,63;
+STZWISCHENZEIT: 101;23;E;5;250;00:04:41,72;
+STZWISCHENZEIT: 101;23;E;6;300;00:05:36,47;
+STZWISCHENZEIT: 101;23;E;7;350;00:06:30,44;
+STERGEBNIS: 23;E;23001;0;NA;6;102;Eberswalder SV;4724;00:00:00,00;;;; (* Offene Wertung *)
+STERGEBNIS: 23;E;23001;0;NA;7;103;Eberswalder SV;4724;00:00:00,00;;;; (* Offene Wertung *)
+DATEIENDE
